@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Layout principal para Cédulas Gradilla (Online) -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_scann"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_claro"
+    tools:context=".ScannActivity">
+
+    <!-- 1. BARRA SUPERIOR (Estado y usuario) -->
+    <LinearLayout
+        android:id="@+id/area_status"
+        style="@style/BarraStatus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Modalidad (ONLINE) -->
+        <TextView
+            android:id="@+id/texto_modalidad"
+            style="@style/TextoStatus"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="Online mode"
+            android:text="ONLINE" />
+
+        <!-- Información del usuario -->
+        <TextView
+            android:id="@+id/texto_status"
+            style="@style/TextoStatus"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="User status"
+            android:text="@string/usuario_text" />
+    </LinearLayout>
+
+    <!-- 2. TÍTULO PRINCIPAL (Moving) -->
+    <TextView
+        android:id="@+id/titulo_principal"
+        style="@style/TituloPrincipalOscuro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/area_status" />
+
+    <!-- 3. BOTONES SUPERIORES (Flexbox) -->
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/area_menu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:paddingVertical="8dp"
+        app:alignItems="center"
+        app:flexDirection="row"
+        app:flexWrap="wrap"
+        app:justifyContent="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo_principal">
+
+        <!-- Botón SCANN -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/boton_paquetes"
+            style="@style/ButtonMenuStyleClaro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Scann access"
+            android:text="PACKAGES" />
+
+        <!-- Botón REPOSITORIES -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/boton_repositorios"
+            style="@style/ButtonMenuStyleClaro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Repositories access"
+            android:text="REPOSITORIES" />
+
+        <!-- Botón SALIR -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/boton_salir"
+            style="@style/ButtonMenuStyleSalir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Logout"
+            android:text="EXIT" />
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <!-- 4. TÍTULO DE SECCIÓN -->
+    <TextView
+        android:id="@+id/titulo_programa"
+        style="@style/TituloProgramaOscuro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCANN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/area_menu" />
+
+    <!-- 5. ÁREA PRINCIPAL (Scroll) -->
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/area_scroll"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:padding="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/gradilla_area_controles"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo_programa">
+
+        <LinearLayout
+            android:id="@+id/area_trabajo"
+            style="@style/AreaTrabajoOscuro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Contenedor blanco (mejor contraste) -->
+            <LinearLayout
+                android:id="@+id/gradilla_cuerpo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="2dp">
+
+                <!-- Área de parrilla con scroll interno -->
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/color_claro">
+
+                    <TextView
+                        android:id="@+id/gradilla_cuerpo_parrilla"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="Área de visualización de cédulas"
+                        android:gravity="center"
+                        android:minHeight="240dp"
+                        android:text="AREA SCANN"
+                        android:textColor="@color/color_oscuro"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </ScrollView>
+
+                <!-- Controles secundarios -->
+                <TextView
+                    android:id="@+id/gradilla_cuerpo_controles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:contentDescription="Controles adicionales"
+                    android:text="SELECTED REF : ST : INT : TOTAL :"
+                    android:textColor="@color/color_texto"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!-- Mensaje de selección
+            <TextView
+                android:id="@+id/gradilla_eleccion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="Estado de selección actual"
+                android:text="NO HAY REGISTRO SELECCIONADO"
+                android:textColor="@color/color_texto"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            -->
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <!-- 6. BOTONES INFERIORES FIJOS -->
+    <LinearLayout
+        android:id="@+id/gradilla_area_controles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <!-- Botón NUEVO -->
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/boton_nuevo"
+            style="@style/ButtonMenuStyleClaro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/desc_boton_municipio"
+            android:text="NEW" />
+
+        <!-- Botón EDITAR -->
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/boton_editar"
+            style="@style/ButtonMenuStyleClaro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/boton_municipio"
+            android:text="EDIT" />
+
+        <!-- Botón INTERNAL -->
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/boton_internos"
+            style="@style/ButtonMenuStyleClaro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/boton_municipio"
+            android:text="INTERNAL" />
+
+        <!-- Botón DEL -->
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/boton_delete"
+            style="@style/ButtonMenuStyleClaro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/boton_municipio"
+            android:text="DEL" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

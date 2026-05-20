@@ -1,0 +1,64 @@
+#ID_FORMULARIO_GRID_CUERPO {
+    box-sizing: border-box;
+    font-size: .5em;
+}
+
+#ID_FORMULARIO_GRID_CUERPO > * {
+}
+
+.renglon_grid_encabezados {
+    color: gray;
+    background-color: white;
+    display: flex;
+    padding: 2px;
+}
+.renglon_grid {
+    display: flex;
+    padding: 2px;
+}
+.renglon_grid0 {
+    color: gray;
+    background-color: white;
+}
+.renglon_grid1 {
+    color: white;
+    background-color: gray;
+}
+.grid_encabezado_celda {
+    box-sizing: border-box;
+    padding: 2px;
+}
+.grid_celda {
+    box-sizing: border-box;
+    padding: 2px;
+}
+.grid_celda_numero {
+    text-align: right;
+}
+.grid_celda_texto {
+    text-align: left;
+}
+
+
+
+@media (min-width: 545px) {
+    #ID_FORMULARIO_GRID_CUERPO {
+        box-sizing: border-box;
+        font-size: .6em;
+    }
+    }
+
+@media (min-width: 680px) {
+    #ID_FORMULARIO_GRID_CUERPO {
+        box-sizing: border-box;
+        font-size: .7em;
+    }
+        
+}
+
+@media (min-width: 920px) {
+    #ID_FORMULARIO_GRID_CUERPO {
+        box-sizing: border-box;
+        font-size: .8em;
+    }
+}

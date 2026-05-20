@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- C:\xampp\htdocs\pantalasa\android_sdhybc\app\src\main\res\xml\network_security_config.xml -->
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">sdhybc.org</domain>
+    </domain-config>
+</network-security-config>

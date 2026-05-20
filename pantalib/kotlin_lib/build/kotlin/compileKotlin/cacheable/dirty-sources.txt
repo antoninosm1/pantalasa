@@ -1,0 +1,8 @@
+C:\xampp\htdocs\pantalasa\pantalib\kotlin_lib\src\main\kotlin\com\pantalasa\Modal.kt
+C:\xampp\htdocs\pantalasa\pantalib\kotlin_lib\src\main\kotlin\com\pantalasa\Back.kt
+C:\xampp\htdocs\pantalasa\pantalib\kotlin_lib\src\main\kotlin\com\pantalasa\Metodos.kt
+C:\xampp\htdocs\pantalasa\pantalib\kotlin_lib\src\main\kotlin\com\pantalasa\Actividad.kt
+C:\xampp\htdocs\pantalasa\pantalib\kotlin_lib\src\main\kotlin\com\pantalasa\Formulario.kt
+C:\xampp\htdocs\pantalasa\pantalib\kotlin_lib\src\main\kotlin\com\pantalasa\Session.kt
+C:\xampp\htdocs\pantalasa\pantalib\kotlin_lib\src\main\kotlin\com\pantalasa\Print.kt
+C:\xampp\htdocs\pantalasa\pantalib\kotlin_lib\src\main\kotlin\com\pantalasa\Evaluaciones.kt

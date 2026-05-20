@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_login_online"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/fondo_online"
+    tools:context=".OnlineLoginActivity">
+
+    <TextView
+        android:id="@+id/online_login_titulo"
+        style="@style/TituloPrincipalOscuro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <!-- 3. BOTONES SUPERIORES (Flexbox) -->
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/area_menu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="2dp"
+        android:paddingVertical="2dp"
+        app:alignItems="center"
+        app:flexDirection="row"
+        app:flexWrap="wrap"
+        app:justifyContent="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/online_login_titulo">
+
+        <!-- Botón SALIR -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/boton_salir"
+            style="@style/ButtonMenuStyleSalir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <TextView
+        android:id="@+id/titulo_programa"
+        style="@style/TituloProgramaOscuro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INGRESO ONLINE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/area_menu" />
+
+    <LinearLayout
+        android:id="@+id/area_trabajo"
+        style="@style/AreaTrabajoOscuro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo_programa"> <!-- Ajuste de bias -->
+
+        <LinearLayout
+            android:id="@+id/maqueta_trabajo"
+            android:layout_width="350dp"
+            android:layout_height="220dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <!-- EditText para el Usuario -->
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/area_usuario"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Ingrese Usuario"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:padding="2dp"
+                android:textColor="@color/color_oscuro"
+                android:textColorHint="@color/color_oscuro"
+                android:backgroundTint="@color/color_claro"
+                android:background="@color/color_claro"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <!-- EditText para la Contraseña con máscara -->
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/area_contrasena"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/fondo_online"
+                android:hint="Ingrese Contraseña"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:padding="2dp"
+                android:textColor="@color/texto_online"
+                android:textColorHint="@color/texto_online"
+                android:textSize="16sp" />
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <!-- BOTONES DE CONTROL (Flexbox) -->
+            <com.google.android.flexbox.FlexboxLayout
+                android:id="@+id/area_controles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="2dp"
+                android:paddingVertical="2dp"
+                app:alignItems="center"
+                app:flexDirection="row"
+                app:flexWrap="wrap"
+                app:justifyContent="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/boton_ingresar"
+                    style="@style/ButtonMenuStyleClaro"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="INGRESAR" />
+
+            </com.google.android.flexbox.FlexboxLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

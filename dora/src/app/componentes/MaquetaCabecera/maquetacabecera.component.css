@@ -1,0 +1,75 @@
+
+    #ID_MAQUETA_CABECERA_LOGO {
+        box-sizing: border-box;
+        grid-area: ID_MAQUETA_CABECERA_LOGO;
+    }
+    
+    #ID_MAQUETA_CABECERA_TITULO {
+        box-sizing: border-box;
+        grid-area: ID_MAQUETA_CABECERA_TITULO;
+    }
+    
+    #ID_MAQUETA_CABECERA_STATUS {
+        box-sizing: border-box;
+        grid-area: ID_MAQUETA_CABECERA_STATUS;
+    }
+
+    .maqueta_cabecera {
+        box-sizing: border-box;
+        background-color: black;
+        color: white;
+        padding: 25px;
+        border: solid 1px red;
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template: 
+            "ID_MAQUETA_CABECERA_LOGO" auto
+            "ID_MAQUETA_CABECERA_TITULO" auto
+            "ID_MAQUETA_CABECERA_STATUS" auto /
+            100%;
+    }
+
+    .maqueta_cabecera  > * {
+        border: solid 1px green;
+        height: 100%;
+    }
+
+    .selected {
+    }
+    .unselected {
+    }
+    .blue {
+        color: blue;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    @media (min-width: 545px) {
+        .maqueta_cabecera {
+            grid-template: 
+            "ID_MAQUETA_CABECERA_LOGO" auto
+            "ID_MAQUETA_CABECERA_TITULO" auto
+            "ID_MAQUETA_CABECERA_STATUS" auto /
+            100%;
+            }
+    }
+    @media (min-width: 680px) {
+        .maqueta_cabecera {
+            grid-template: 
+            "ID_MAQUETA_CABECERA_LOGO ID_MAQUETA_CABECERA_TITULO" auto
+            "ID_MAQUETA_CABECERA_LOGO ID_MAQUETA_CABECERA_STATUS" auto /
+            30% 70%;
+            }
+    }
+    
+    @media (min-width: 920px) {
+        .maqueta_cabecera {
+            grid-template: 
+            "ID_MAQUETA_CABECERA_LOGO ID_MAQUETA_CABECERA_TITULO ID_MAQUETA_CABECERA_STATUS" auto /
+            30% 40% 30%;
+            }
+    }
+    

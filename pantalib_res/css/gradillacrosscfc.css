@@ -1,0 +1,268 @@
+.GRADILLA {
+	
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	box-sizing: border-box;
+	margin-left: 0px;
+	padding: .5px;
+}
+
+.GRADILLA_TITULO {
+	
+	top: 0px;
+	width: 100%;
+	display: inline-block;
+	box-sizing: border-box;
+	margin-left: 0px;
+	padding: .5px;
+}
+
+.GRADILLA_TITULO_TEXTO {
+	
+	top: 0px;
+	width: 70%;
+	display: inline-block;
+	height: 100%;
+	box-sizing: border-box;
+	margin-left: 0px;
+	padding: .5px;
+}
+
+
+.GRADILLA_CUERPO {
+	
+	top: 0px;
+	width: 100%;
+	display: inline-block;
+	box-sizing: border-box;
+	margin-left: 0px;
+	padding: .5px;
+}
+
+.GRADILLA_CUERPO_TABLA {
+	
+	top: 0px;
+	width: 100%;
+	display: inline-block;
+	box-sizing: border-box;
+	margin-left: 0px;
+	padding: .5px;
+	height: 50%;
+}
+
+.GRADILLA_CUERPO_TABLA_ENCABEZADOS {
+	
+	top: 0px;
+	width: 100%;
+	display: inline-block;
+	box-sizing: border-box;
+	margin-left: 0px;
+	padding: .5px;
+	position: absolute;
+	display: none;
+}
+
+.GRADILLA_CUERPO_TABLA_RENGLON {
+	
+	top: 0px;
+	width: 100%;
+	display: inline-block;
+	box-sizing: border-box;
+	margin-left: 0px;
+	padding: .5px;
+	border: 1px solid green;
+}
+
+.GRADILLA_CUERPO_TABLA_ENCABEZADOS_CELDA {
+	
+	top: 0px;
+	display: inline-block;
+	box-sizing: border-box;
+	margin-left: 0px;
+	padding: .5px;
+}
+
+.ENC_CELDA_CHICA {
+	
+	top: 0px;
+	display: inline-block;
+	box-sizing: border-box;
+	margin-left: 0px;
+	padding: .5px;
+    width: 5%;
+}
+
+.ENC_CELDA_MEDIANA {
+	
+	top: 0px;
+	display: inline-block;
+	box-sizing: border-box;
+	margin-left: 0px;
+	padding: .5px;
+    width: 18%;
+}
+
+.GRADILLA_COMPLEMENTO {
+	
+	top: 0px;
+	display: inline-block;
+	box-sizing: border-box;
+	margin-left: 0px;
+	padding: .5px;
+    width: 5%;
+}
+
+.LABEL_VERTICAL {
+	
+	top: 0px;
+	display: inline-block;
+	box-sizing: border-box;
+	margin-right: 1%;
+	padding: .5px;
+    width: 25%;
+	text-align: right;
+	background-color: green;
+	color: rgba(247, 226, 185);
+}
+
+
+
+.CELDA_CHICA {
+	
+	top: 0px;
+	display: inline-block;
+	box-sizing: border-box;
+	margin-left: 0px;
+	padding: .5px;
+    width: 74%;
+	text-align: left;
+}
+
+.CELDA_CHICA:hover {
+	cursor: pointer;
+}
+
+.CELDA_MEDIANA {
+	
+	top: 0px;
+	display: inline-block;
+	box-sizing: border-box;
+	margin-left: 0px;
+	padding: .5px;
+    width: 74%;
+	text-align: left;
+}
+
+.CELDA_MEDIANA:hover {
+	cursor: pointer;
+}
+
+.GRADILLA_CUERPO_TABLA_CUERPO {
+
+	top: 0px;
+	width: 100%;
+	display: inline-block;
+	box-sizing: border-box;
+	margin-left: 0px;
+	padding: .5px;
+	max-height: 300px;
+	overflow-y: scroll;
+    overflow-x: hidden;
+	scrollbar-width: thin;
+}
+
+
+.GRADILLA_CUERPO_TABLA_RENGLON_CELDA {
+	
+	top: 0px;
+	display: inline-block;
+	box-sizing: border-box;
+	margin-left: 0px;
+	padding: .5px;
+	cursor: pointer;
+}
+
+
+.GRADILLA_CUERPO_TABLA_ENCABEZADOS_CELDA  {
+	background-color: black;
+}
+
+
+.GRADILLA_PIE {
+	
+	top: 0px;
+	width: 100%;
+	display: inline-block;
+	height: 5%;
+	box-sizing: border-box;
+	margin-left: 0px;
+	padding: .5px;
+}
+
+
+@media (min-width: 545px) {
+	.GRADILLA_CUERPO_TABLA_ENCABEZADOS {
+		display: inline-block;
+		position: relative;
+		background-color: green;
+		color: rgba(247, 226, 185);
+	}
+	.ENC_CELDA_CHICA {
+		width: 5%;
+	}
+	
+	.ENC_CELDA_MEDIANA {
+		width: 18.2%;
+	}
+	.LABEL_VERTICAL {
+		display: none;
+		position: absolute;
+	}
+	
+	.GRADILLA_COMPLEMENTO {
+		width: 4%;
+	}
+	.CELDA_CHICA {
+		padding: .5px;
+		width: 5%;
+	}
+	
+	.CELDA_MEDIANA {
+		padding: .5px;
+		width: 19%;
+	}
+}
+
+@media (min-width: 600px) {
+	
+	.GRADILLA_COMPLEMENTO {
+		width: 3%;
+	}
+	.ENC_CELDA_CHICA {
+		width: 5%;
+	}
+	
+	.ENC_CELDA_MEDIANA {
+		width: 18.4%;
+	}
+}
+
+@media (min-width: 850px) {
+	
+	.GRADILLA_COMPLEMENTO {
+		width: 2%;
+	}
+	.ENC_CELDA_CHICA {
+		width: 5%;
+	}
+	
+	.ENC_CELDA_MEDIANA {
+		width: 18.6%;
+	}
+}
+
+@media (min-width: 920px) {
+}
+

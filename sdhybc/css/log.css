@@ -1,0 +1,637 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-image: linear-gradient(rgba(139, 14, 153, 0.2), rgba(139, 14, 153, 0.2)), url("../images/barrancas.png");
+    background-repeat: repeat-y;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    max-height: 95vh;
+}
+
+main {
+    margin: auto;
+    width: 1180px;
+    background: rgba(139, 14, 153, 0.5);
+}
+
+.main-sections-container {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: auto auto auto auto;
+    background: rgba(139, 14, 153, 0.5);
+}
+
+.section-header {
+    height: 60px;
+    width: 1150px;
+    margin: auto;
+}
+
+.form-home {
+    margin: auto;
+    align-items: center;
+    width: 1150px;
+}
+
+.display-flex {
+    display: flex;
+    margin: auto 10px auto 10px;
+}
+
+.width-280px {
+    width: 280px;
+    margin: auto;
+    text-align: center;
+}
+
+.no-display {
+    display: none;
+}
+
+.log-section-container {
+    float:right;
+    width: 200px;
+}
+
+.float-left {
+    float: left;
+    width: 90px;
+}
+
+.simple-paragraph {
+    font-size: 15px;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.hyperlink {
+    font-size: 13px;
+    color:rgb(132, 5, 81);
+    text-decoration: none;
+}
+
+.hyperlink:visited {
+    color:rgb(132, 5, 81);
+}
+
+.hyperlink:hover {
+    color:rgb(199, 113, 183);
+    text-decoration: none;
+}
+
+#grid-SiSal {
+    grid-column: 4 /5;
+    grid-row: 1 / 3;
+}
+
+/*
+    MENU
+*/
+
+.menu-header {
+    height: 60px;
+    width: 390px;
+    display: inline-flex;
+}
+
+.menu-item {
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: auto;
+}
+
+.menu-item-description {
+    font-size: 11px;
+    color: rgb(139, 14, 153);
+}
+
+
+@media only screen and (max-width: 1260px){
+    main {
+        margin: auto;
+        width: 930px;
+        background: rgba(139, 14, 153, 0.5);
+    }
+    
+    .main-sections-container {
+        display: grid;
+        background: rgba(139, 14, 153, 0.5);
+        grid-template-columns: auto auto auto;
+    }
+
+    .section-header {
+        height: 60px;
+        width: 900px;
+        margin: auto;
+    }
+
+    .form-home {
+        margin: auto;
+        align-items: center;
+        width: 900px;
+    }
+
+    #grid-SiSal {
+        grid-column: 1 / 2;
+        grid-row: 2 / 4;
+    }
+
+    #grid-Coment {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+
+    #grid-Buttons {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+    
+    #button-general-anterior {
+        margin-bottom: 40px;
+    }
+
+    .table-use-mid {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 950px){
+    main {
+        margin: auto;
+        width: 620px;
+        background: rgba(139, 14, 153, 0.5);
+    }
+    
+    .main-sections-container {
+        display: grid;
+        background: rgba(139, 14, 153, 0.5);
+        grid-template-columns: auto auto;
+    }
+    
+    .section-header {
+        height: 60px;
+        width: 590px;
+        margin: auto;
+    }
+
+    .form-home {
+        margin: auto;
+        align-items: center;
+        width: 590px;
+    }
+
+    .log-section-container {
+        float:right;
+        width: 200px;
+    }
+
+    .float-left {
+        float: left;
+        width: 90px;
+    }
+
+    #grid-Masc {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    #grid-SiSal {
+        grid-column: 2 / 3;
+        grid-row: 2 / 4;
+    }
+
+    #grid-Coment {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+
+    #grid-Buttons {
+        grid-column: 1 / 3;
+        grid-row: 4 / 5;
+    }
+
+    #button-general-anterior {
+        margin-bottom: 0px;
+    }
+    
+    .table-use-nac, .table-use-mid, .table-use-uin, .table-use-cec, .table-use-cor {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    main {
+        margin: auto;
+        width: 310px;
+        background: rgba(139, 14, 153, 0.5);
+    }
+    
+    .main-sections-container {
+        display: grid;
+        background: rgba(139, 14, 153, 0.5);
+        grid-template-columns: auto;
+    }
+
+    .section-header {
+        height: 40px;
+        width: 280px;
+        margin: auto;
+        display: flex;
+    }
+
+    .form-home {
+        margin: auto;
+        align-items: center;
+        width: 280px;
+    }
+
+    .log-section-container {
+        display: block;
+        width: 200px;
+    }
+    
+    .float-left {
+        display: block;
+        width: 90px;
+    }
+
+    #grid-PueInd {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    #grid-Dere {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    #grid-Masc {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+    #grid-SiSal {
+        grid-column: 1 / 2;
+        grid-row: 4 / 6;
+    }
+
+    #grid-Coment {
+        grid-column: 1 / 2;
+        grid-row: 6 / 7;
+    }
+
+    #grid-Buttons {
+        grid-column: 1 / 2;
+        grid-row: 7 / 8;
+    }
+    
+    #button-general-anterior {
+        margin-bottom: 40px;
+    }
+
+    .table-ced-acc, .table-ced-ced, .table-ced-viv, .table-ced-gen, .table-ced-fam {
+        display: none;
+    }
+
+    .table-use-acc, .table-use-ap1, .table-use-ap2, .table-use-cor, .table-use-nac, .table-use-mid, .table-use-uin {
+        display: none;
+    }
+
+    .image-menu {
+        margin: 3px 5px 2px 5px;
+    }
+
+    .menu-item-description {
+        display: none;
+    }
+    
+    .menu-header {
+        width: 280px;
+        display: inline-flex;
+    }
+}
+
+
+.form-section-container{
+    margin: 5px;
+    border-radius: 10px;
+    background: rgb(197, 184, 199);
+    text-align: center;
+}
+
+.title-form-section {
+    width: 256px;
+    margin: auto;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-select {
+    width: 256px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.form-select option {
+    font-size: 13px;
+}
+
+.font-size-12px {
+    font-size: 12px;
+}
+
+.font-size-13px {
+    font-size: 13px;
+}
+
+.form-input-text-comment {
+    width: 256px;
+    height: 216px;
+    font-size: 13px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.single-input-form-section {
+    width: 256px;
+    margin: auto auto 5px auto;
+}
+
+.form-section-container form {
+    padding:7px;
+}
+
+.input-section-horizontal {
+    width: 256px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
+
+.form-padding-top-10px {
+    padding-top: 10px;
+}
+
+.form-margin-top-40px {
+    margin-top: 40px;
+}
+
+.form-margin-top-20px {
+    margin-top: 20px;
+}
+
+.form-margin-top-3px {
+    margin-top: 3px;
+}
+
+.form-margin-top-5px {
+    margin-top: 5px;
+}
+
+.form-margin-bottom-0px {
+    margin-bottom: 0px;
+}
+
+.form-margin-bottom-5px {
+    margin-bottom: 5px;
+}
+
+.form-margin-bottom-10px {
+    margin-bottom: 10px;
+}
+
+.form-margin-bottom-15px {
+    margin-bottom: 15px;
+}
+
+.form-margin-bottom-20px {
+    margin-bottom: 20px;
+}
+
+.form-margin-bottom-40px {
+    margin-bottom: 40px;
+}
+
+.input-section-horizontal-inputs {
+    margin: auto;
+    text-align: center;
+}
+
+.input-section-label {
+    width: 240px;
+    text-align: left;
+}
+
+.input-button {
+    width: 230px;
+    height: 28px;
+    border-radius: 14px;
+    cursor: pointer;
+    background: rgb(239, 140, 233);
+}
+
+.three-input-buttons {
+    width: 85px;
+}
+
+.input-button:hover {
+    background: rgb(207, 50, 197);
+}
+
+.input-text {
+    height: 28px;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+}
+
+/*
+        Tablas
+*/
+
+#table-records, #table-users {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+#table-records, #table-records th, #table-records td, #table-users, #table-users th, #table-users td {
+    border: 1px solid black;
+    font-size: 13px;
+}
+
+#table-records td, #table-users td {
+    font-size: 12px;
+    padding: 0px 7px 0px 7px;
+}
+
+#table-records tr:nth-child(even), #table-users tr:nth-child(even) {
+    background: rgb(222, 205, 224);
+}
+
+#table-records tr:nth-child(odd), #table-users tr:nth-child(odd) {
+    background: rgb(172, 144, 176);
+}
+
+.table-title {
+    background: rgb(160, 134, 166);
+    font-weight: bold;
+}
+
+.table-ced-refresh, .table-use-refresh {
+    width: 18px;
+    height: 18px;
+    color: rgb(139, 14, 153);
+    margin: auto auto auto 5px;
+}
+
+.table-ced-refresh:hover, .table-use-refresh:hover {
+    cursor: pointer;
+    color: rgb(222, 205, 224);
+}
+
+.table-buttons {
+    width: 60px;
+    margin: 0px 5px 0px 5px;
+    font-size: 12px;
+    border-radius: 14px;
+    cursor: pointer;
+    background: rgb(239, 140, 233);
+}
+
+.table-buttons:hover {
+    background: rgb(207, 50, 197);
+}
+
+.table-links {
+    margin: 0px 5px 0px 5px;
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.table-links:hover {
+    color: rgb(180, 41, 170);
+}
+
+#pagination {
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+}
+
+.pagination {
+    margin: 10px auto;
+    width: 230px;
+    border-radius: 10px;
+}
+
+.pagination a,.pagination p {
+    margin: auto;
+    display: inline-block;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(132, 5, 81);
+}
+
+.pagination a:hover {
+    cursor: pointer;
+}
+
+.image-menu {
+    margin: 3px 5px 2px 5px;
+    width: 30px;
+    height: 30px;
+    color: rgb(139, 14, 153);
+}
+
+.image-menu:hover {
+    cursor: pointer;
+    color: rgb(222, 205, 224);
+}
+
+.image-menu-table  {
+    margin: 3px 10px 1px 10px;
+    width: 15px;
+    height: 15px;
+    color: rgb(130, 30, 124);
+}
+
+.image-menu-table:hover {
+    cursor: pointer;
+    background: rgb(239, 140, 233);
+}
+
+.image-table-arrows {
+    margin: 1px 10px 1px 10px;
+    width: 15px;
+    height: 15px;
+    color: rgb(130, 30, 124);
+}
+
+.image-table-arrows:hover {
+    cursor: pointer;
+    color: rgb(239, 140, 233);
+}
+
+/* 
+            RESUME
+*/
+
+.height-50px {
+    height: 50px;
+}
+
+#resume-municipios, #resume-municipios option, #resume-localidades, #resume-localidades option {
+    font-size: 13px;
+}
+
+#resume-localidades {
+    width: 190px;
+}
+
+.resume-result {
+    font-size: 13px;
+    text-align: left;
+}
+
+.resume-value {
+    font-weight: bold;
+    padding-right: 10px;
+    width: 200px;
+    margin-left: 20px;
+}
+
+.form-section-container span{
+    display: inline-block;
+    width: 50px;
+}
+
+.resume-result-title {
+    font-weight: bold;
+    text-align: center;
+}
+
+.resume-link {
+    text-decoration: underline;
+    color: rgb(7, 7, 139);
+}
+
+.resume-link:hover {
+    color: rgb(130, 30, 124);
+    cursor: pointer;    
+}

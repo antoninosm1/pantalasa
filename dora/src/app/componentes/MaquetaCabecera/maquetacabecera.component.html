@@ -1,0 +1,36 @@
+<div class="maqueta_cabecera" id="ID_MAQUETA_CABECERA">
+    <div class="maqueta_cabecera_area maqueta_cabecera_area_logo" id="ID_MAQUETA_CABECERA_LOGO">
+        <img src="{{ logo_imagen_url }}" width="100%">
+    </div>
+    <div class="maqueta_cabecera_area maqueta_cabecera_area_titulo" id="ID_MAQUETA_CABECERA_TITULO">
+        {{title_text[idioma_general]}}
+        <br>
+        <div class="class-col-md12 my-3">
+            <app-form-agrega (NuevaCiudadEvento)="nuevaCiudad($event)" [label]="'Ciudad'" [className]="'btn-danger'"></app-form-agrega>
+        </div>
+        <ul>
+            <li  *ngFor='let ciudad of ciudades' (click)="onCityClicked(ciudad)" [ngClass]="{'alert alert-info': ciudad === city_selection}"> {{ ciudad }} </li>
+        </ul>
+
+
+    </div>
+    <div class="maqueta_cabecera_area maqueta_cabecera_area_status" id="ID_MAQUETA_CABECERA_STATUS">
+        <p *ngIf="status_text">EL STATUS ES: {{status_text}}</p>
+        <input type="text" [(ngModel)] = "status_text">
+        <br>
+        <br>
+        <div>
+            <p *ngIf="city_selection">
+                La selección es: {{ city_selection }} <br>
+                <br>
+                <app-button (click)="onClear()" [color]="'blue'" [label]="'Quita la selección'"></app-button>
+                <br>
+                <app-button (click)="onClear()" [color]="'red'" [label]="'Otro boton de prueba'"></app-button>
+            </p>
+            <button class="btn btn-primary">PRUEBA</button>
+        </div>
+        <div>
+            {{ imprime }}
+        </div>
+    </div>
+</div>

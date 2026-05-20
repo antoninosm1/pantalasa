@@ -1,0 +1,40 @@
+version: '3.8'
+services:
+  web:
+    container_name: taller_apache
+    image: apache_web
+    restart: always
+    depends_on: 
+    - db
+    volumes:
+    - /home/gfong/Pantalasa/taller:/var/www/html/
+    - /home/gfong/php.ini:/usr/local/etc/php/php.ini
+    ports: 
+    - 8003:80
+  db:
+    container_name: taller_mysql
+    image: mysql:latest
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: taller_db_main
+      MYSQL_USER: user_taller_db_main 
+      MYSQL_PASSWORD: geroxx_174*my-T
+    ports: 
+    - 6035:3306
+  phpmyadmin:
+    container_name: taller_phpmyadmin
+    image: phpmyadmin/phpmyadmin
+    restart: always
+    expose:
+    - 80
+    ports:
+    - 8004:80
+    depends_on:
+      - db
+
+    
+
+        
+  

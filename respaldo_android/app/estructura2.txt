@@ -1,0 +1,342 @@
+Listado de rutas de carpetas para el volumen OS
+El número de serie del volumen es F2EA-7EDD
+C:\XAMPP\HTDOCS\PANTALASA\ANDROID_SDHYBC\APP
+|   estructura2.txt
+|   
+\---build
+    +---generated
+    |   +---data_binding_base_class_source_out
+    |   |   \---debugAndroidTest
+    |   |       \---out
+    |   +---res
+    |   |   +---pngs
+    |   |   |   \---debug
+    |   |   \---resValues
+    |   |       +---androidTest
+    |   |       |   \---debug
+    |   |       \---debug
+    |   \---source
+    |       \---buildConfig
+    |           +---androidTest
+    |           |   \---debug
+    |           |       \---com
+    |           |           \---pantalasa
+    |           |               \---sdhybc
+    |           |                   \---test
+    |           |                           BuildConfig.java
+    |           |                           
+    |           \---debug
+    |               \---com
+    |                   \---pantalasa
+    |                       \---sdhybc
+    |                               BuildConfig.java
+    |                               
+    +---intermediates
+    |   +---aar_metadata_check
+    |   |   +---debug
+    |   |   |   \---checkDebugAarMetadata
+    |   |   \---debugAndroidTest
+    |   |       \---checkDebugAndroidTestAarMetadata
+    |   +---annotation_processor_list
+    |   |   +---debug
+    |   |   |   \---javaPreCompileDebug
+    |   |   |           annotationProcessors.json
+    |   |   |           
+    |   |   +---debugAndroidTest
+    |   |   |   \---javaPreCompileDebugAndroidTest
+    |   |   |           annotationProcessors.json
+    |   |   |           
+    |   |   \---debugUnitTest
+    |   |       \---javaPreCompileDebugUnitTest
+    |   |               annotationProcessors.json
+    |   |               
+    |   +---app_metadata
+    |   |   \---debug
+    |   |       \---writeDebugAppMetadata
+    |   |               app-metadata.properties
+    |   |               
+    |   +---assets
+    |   |   +---debug
+    |   |   |   \---mergeDebugAssets
+    |   |   \---debugAndroidTest
+    |   |       \---mergeDebugAndroidTestAssets
+    |   +---compatible_screen_manifest
+    |   |   \---debug
+    |   |       \---createDebugCompatibleScreenManifests
+    |   |               output-metadata.json
+    |   |               
+    |   +---compile_and_runtime_not_namespaced_r_class_jar
+    |   |   \---debugAndroidTest
+    |   |       \---processDebugAndroidTestResources
+    |   |               R.jar
+    |   |               
+    |   +---compressed_assets
+    |   |   +---debug
+    |   |   |   \---compressDebugAssets
+    |   |   |       \---out
+    |   |   \---debugAndroidTest
+    |   |       \---compressDebugAndroidTestAssets
+    |   |           \---out
+    |   +---data_binding_base_class_log_artifact
+    |   |   \---debugAndroidTest
+    |   |       \---dataBindingGenBaseClassesDebugAndroidTest
+    |   |           \---out
+    |   |                   com.pantalasa.sdhybc.test-binding_classes.json
+    |   |                   
+    |   +---data_binding_dependency_artifacts
+    |   |   +---debug
+    |   |   |   \---dataBindingMergeDependencyArtifactsDebug
+    |   |   \---debugAndroidTest
+    |   |       \---dataBindingMergeDependencyArtifactsDebugAndroidTest
+    |   +---data_binding_layout_info_type_merge
+    |   |   +---debug
+    |   |   |   \---mergeDebugResources
+    |   |   |       \---out
+    |   |   \---debugAndroidTest
+    |   |       \---mergeDebugAndroidTestResources
+    |   |           \---out
+    |   +---data_binding_layout_info_type_package
+    |   |   \---debug
+    |   |       \---packageDebugResources
+    |   |           \---out
+    |   +---dex
+    |   |   +---debug
+    |   |   |   +---mergeExtDexDebug
+    |   |   |   |       classes.dex
+    |   |   |   |       classes2.dex
+    |   |   |   |       
+    |   |   |   \---mergeLibDexDebug
+    |   |   |       +---0
+    |   |   |       +---1
+    |   |   |       +---10
+    |   |   |       +---11
+    |   |   |       +---12
+    |   |   |       +---13
+    |   |   |       +---14
+    |   |   |       +---15
+    |   |   |       +---2
+    |   |   |       +---3
+    |   |   |       +---4
+    |   |   |       +---5
+    |   |   |       +---6
+    |   |   |       +---7
+    |   |   |       +---8
+    |   |   |       \---9
+    |   |   \---debugAndroidTest
+    |   |       +---mergeExtDexDebugAndroidTest
+    |   |       |       classes.dex
+    |   |       |       
+    |   |       \---mergeLibDexDebugAndroidTest
+    |   |           +---0
+    |   |           +---1
+    |   |           +---10
+    |   |           +---11
+    |   |           +---12
+    |   |           +---13
+    |   |           +---14
+    |   |           +---15
+    |   |           +---2
+    |   |           +---3
+    |   |           +---4
+    |   |           +---5
+    |   |           +---6
+    |   |           +---7
+    |   |           +---8
+    |   |           \---9
+    |   +---duplicate_classes_check
+    |   |   +---debug
+    |   |   |   \---checkDebugDuplicateClasses
+    |   |   \---debugAndroidTest
+    |   |       \---checkDebugAndroidTestDuplicateClasses
+    |   +---external_file_lib_dex_archives
+    |   |   +---debug
+    |   |   |   \---desugarDebugFileDependencies
+    |   |   \---debugAndroidTest
+    |   |       \---desugarDebugAndroidTestFileDependencies
+    |   +---global_synthetics_file_lib
+    |   |   +---debug
+    |   |   |   \---desugarDebugFileDependencies
+    |   |   \---debugAndroidTest
+    |   |       \---desugarDebugAndroidTestFileDependencies
+    |   +---incremental
+    |   |   +---dataBindingGenBaseClassesDebugAndroidTest
+    |   |   |       base_builder_log.json
+    |   |   |       
+    |   |   +---debug
+    |   |   |   +---mergeDebugResources
+    |   |   |   \---packageDebugResources
+    |   |   +---debugAndroidTest
+    |   |   |   \---mergeDebugAndroidTestResources
+    |   |   |       |   compile-file-map.properties
+    |   |   |       |   merger.xml
+    |   |   |       |   
+    |   |   |       +---merged.dir
+    |   |   |       |   +---values
+    |   |   |       |   |       values.xml
+    |   |   |       |   |       
+    |   |   |       |   +---values-v18
+    |   |   |       |   |       values-v18.xml
+    |   |   |       |   |       
+    |   |   |       |   +---values-v21
+    |   |   |       |   |       values-v21.xml
+    |   |   |       |   |       
+    |   |   |       |   \---values-v28
+    |   |   |       |           values-v28.xml
+    |   |   |       |           
+    |   |   |       \---stripped.dir
+    |   |   +---mergeDebugAndroidTestAssets
+    |   |   |       merger.xml
+    |   |   |       
+    |   |   +---mergeDebugAndroidTestJniLibFolders
+    |   |   |       merger.xml
+    |   |   |       
+    |   |   +---mergeDebugAndroidTestShaders
+    |   |   |       merger.xml
+    |   |   |       
+    |   |   +---mergeDebugAssets
+    |   |   |       merger.xml
+    |   |   |       
+    |   |   +---mergeDebugJniLibFolders
+    |   |   |       merger.xml
+    |   |   |       
+    |   |   \---mergeDebugShaders
+    |   |           merger.xml
+    |   |           
+    |   +---linked_resources_binary_format
+    |   |   \---debugAndroidTest
+    |   |       \---processDebugAndroidTestResources
+    |   |               linked-resources-binary-format.ap_
+    |   |               output-metadata.json
+    |   |               
+    |   +---manifest_merge_blame_file
+    |   |   +---debug
+    |   |   |   \---processDebugMainManifest
+    |   |   |           manifest-merger-blame-debug-report.txt
+    |   |   |           
+    |   |   \---debugAndroidTest
+    |   |       \---processDebugAndroidTestManifest
+    |   |               manifest-merger-blame-debug-androidTest-report.txt
+    |   |               
+    |   +---merged_jni_libs
+    |   |   +---debug
+    |   |   |   \---mergeDebugJniLibFolders
+    |   |   |       \---out
+    |   |   \---debugAndroidTest
+    |   |       \---mergeDebugAndroidTestJniLibFolders
+    |   |           \---out
+    |   +---merged_manifest
+    |   |   \---debug
+    |   |       \---processDebugMainManifest
+    |   |               AndroidManifest.xml
+    |   |               
+    |   +---merged_manifests
+    |   |   \---debug
+    |   |       \---processDebugManifest
+    |   |               AndroidManifest.xml
+    |   |               output-metadata.json
+    |   |               
+    |   +---merged_res
+    |   |   +---debug
+    |   |   |   \---mergeDebugResources
+    |   |   \---debugAndroidTest
+    |   |       \---mergeDebugAndroidTestResources
+    |   |               values-v18_values-v18.arsc.flat
+    |   |               values-v21_values-v21.arsc.flat
+    |   |               values-v28_values-v28.arsc.flat
+    |   |               values_values.arsc.flat
+    |   |               
+    |   +---merged_res_blame_folder
+    |   |   +---debug
+    |   |   |   \---mergeDebugResources
+    |   |   |       \---out
+    |   |   \---debugAndroidTest
+    |   |       \---mergeDebugAndroidTestResources
+    |   |           \---out
+    |   |               \---multi-v2
+    |   |                       mergeDebugAndroidTestResources.json
+    |   |                       values-v18.json
+    |   |                       values-v21.json
+    |   |                       values-v28.json
+    |   |                       values.json
+    |   |                       
+    |   +---merged_shaders
+    |   |   +---debug
+    |   |   |   \---mergeDebugShaders
+    |   |   |       \---out
+    |   |   \---debugAndroidTest
+    |   |       \---mergeDebugAndroidTestShaders
+    |   |           \---out
+    |   +---navigation_json
+    |   |   \---debug
+    |   |       \---extractDeepLinksDebug
+    |   |               navigation.json
+    |   |               
+    |   +---nested_resources_validation_report
+    |   |   +---debug
+    |   |   |   \---generateDebugResources
+    |   |   |           nestedResourcesValidationReport.txt
+    |   |   |           
+    |   |   \---debugAndroidTest
+    |   |       \---generateDebugAndroidTestResources
+    |   |               nestedResourcesValidationReport.txt
+    |   |               
+    |   +---packaged_manifests
+    |   |   +---debug
+    |   |   |   \---processDebugManifestForPackage
+    |   |   |           AndroidManifest.xml
+    |   |   |           output-metadata.json
+    |   |   |           
+    |   |   \---debugAndroidTest
+    |   |       \---processDebugAndroidTestManifest
+    |   |               AndroidManifest.xml
+    |   |               output-metadata.json
+    |   |               
+    |   +---packaged_res
+    |   |   \---debug
+    |   |       \---packageDebugResources
+    |   +---runtime_symbol_list
+    |   |   \---debugAndroidTest
+    |   |       \---processDebugAndroidTestResources
+    |   |               R.txt
+    |   |               
+    |   +---signing_config_versions
+    |   |   +---debug
+    |   |   |   \---writeDebugSigningConfigVersions
+    |   |   |           signing-config-versions.json
+    |   |   |           
+    |   |   \---debugAndroidTest
+    |   |       \---writeDebugAndroidTestSigningConfigVersions
+    |   |               signing-config-versions.json
+    |   |               
+    |   +---source_set_path_map
+    |   |   +---debug
+    |   |   |   \---mapDebugSourceSetPaths
+    |   |   |           file-map.txt
+    |   |   |           
+    |   |   \---debugAndroidTest
+    |   |       \---mapDebugAndroidTestSourceSetPaths
+    |   |               file-map.txt
+    |   |               
+    |   +---stable_resource_ids_file
+    |   |   \---debugAndroidTest
+    |   |       \---processDebugAndroidTestResources
+    |   |               stableIds.txt
+    |   |               
+    |   +---symbol_list_with_package_name
+    |   |   \---debugAndroidTest
+    |   |       \---processDebugAndroidTestResources
+    |   |               package-aware-r.txt
+    |   |               
+    |   +---tmp
+    |   |   \---manifest
+    |   |       \---androidTest
+    |   |           \---debug
+    |   \---validate_signing_config
+    |       +---debug
+    |       |   \---validateSigningDebug
+    |       \---debugAndroidTest
+    |           \---validateSigningDebugAndroidTest
+    \---outputs
+        \---logs
+                manifest-merger-debug-report.txt
+                

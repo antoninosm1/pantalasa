@@ -1,0 +1,107 @@
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* AREA TRABAJO
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.maqueta_01 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+    position: relative;      /* necesario para absolute internos */
+}
+
+.maqueta_ventana {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+    position: relative;      /* necesario para absolute internos */
+    background-color: white;
+    padding: 20px;
+    border: 1px gray solid;
+}
+
+.maqueta_ventana > * {
+    padding: 5px;
+}
+
+.area_nombre {
+	box-sizing: border-box;
+    text-align: center;
+    font-size: 2rem;
+    padding: 5px;
+    color: rgba(166, 30, 57);
+    rotate: -7deg;
+}
+
+.titulo_ventana {
+	box-sizing: border-box;
+    text-align: center;
+    font-size: 2rem;
+    padding: 3px;
+}
+
+.area_input {
+	box-sizing: border-box;
+    text-align: center;
+    padding: 2px;
+}
+
+.login_input {
+    margin: 5px auto;
+    height: 28px;
+    width: 230px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.login_button {
+    cursor: pointer;
+    background: rgb(245, 190, 39);
+    font-size: 1.5rem;
+    padding: 2px;
+}
+
+.login_button:hover {
+    background: rgb(212, 36, 191);
+    color: white;
+}
+
+.area_link {
+	box-sizing: border-box;
+    text-align: center;
+    padding: 4px;
+}
+
+.login_link {
+    font-size: 13px;
+    color:rgb(212, 36, 191);
+    margin: 5px;
+    font-size: .7rem;
+}
+
+.login_link:visited {
+    color:rgb(132, 5, 81);
+}
+
+.login_link:hover {
+    color:rgb(199, 113, 183);
+}
+
+.boton_link_icono_chico_icono {
+    padding: .3em;    
+    color: rgba(212, 36, 191);   
+    display: block;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.boton_link_icono_chico_texto {
+    color: rgba(212, 36, 191);   
+    display: block;
+    text-decoration: none;
+    font-size: 1.5rem;
+}

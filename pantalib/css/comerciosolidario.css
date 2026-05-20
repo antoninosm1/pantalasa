@@ -1,0 +1,503 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 12px;   /* tamaño base para todo el documento */
+}
+ 
+body {
+	box-sizing: border-box;
+    font-family: Arial;
+    background-image: linear-gradient(rgba(139, 14, 153, 0.2), rgba(139, 14, 153, 0.2)), url("../../comerciosolidario/imagenes/edificio_suenos02.jpeg");
+    background-repeat: round;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    max-width: 100%;
+    min-width: 350px;
+    padding: 10px;
+}
+
+.area_cuerpo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;     /* centra horizontal */
+    align-items: center;     /* vertical */
+    min-height: 750px;
+}
+
+.maqueta_ventana {
+	box-sizing: border-box;
+    background-color: white;
+    font-size: 2.5rem;   
+    width: 350px;
+    padding: 10px;
+    border: solid 1px gray;
+}
+
+.maqueta_ventana > * {
+    font-size: 2.5rem;   
+}
+
+.area_nombre {
+	box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    color: rgba(166, 30, 57);
+    font-weight: bold;
+    rotate: -7deg;
+}
+
+.titulo_ventana {
+	box-sizing: border-box;
+    text-align: center;
+    font-size: 2rem;   
+    padding: 5px;
+}
+
+.area_input {
+	box-sizing: border-box;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2px;
+}
+
+.login_input {
+    margin: 5px auto;
+    height: 28px;
+    width: 230px;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2px;
+}
+
+.login_button {
+    cursor: pointer;
+    background: rgb(245, 190, 39);
+    font-size: 1.5rem;
+    padding: 2px;
+}
+
+.login_button:hover {
+    background: rgb(212, 36, 191);
+    color: white;
+}
+
+.area_link {
+	box-sizing: border-box;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2px;
+}
+
+.login_link {
+    margin: 5px;
+    font-size: 1rem;
+    padding: 2px;
+}
+
+.login_link:visited {
+}
+
+.login_link:hover {
+}
+
+.boton_link_icono_chico_icono {
+    color: rgb(212, 36, 191);
+    display: block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 2px;
+}
+
+.boton_link_icono_chico_texto {
+    color: rgb(212, 36, 191);
+    display: block;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 2px;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* PANTALLA GEN */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.maqueta_01 {
+	box-sizing: border-box;
+    width: 100%;
+}
+.maqueta_01 > * {
+}
+
+#ID_maqueta_01_CUERPO {
+}
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* MAQUETA GEN STATUS */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.area_cinta {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+#ID_GEN_STATUS_NAME {
+	box-sizing: border-box;
+	grid-area: ID_GEN_STATUS_NAME;
+}
+#ID_GEN_STATUS_AVISO {
+	box-sizing: border-box;
+	grid-area: ID_GEN_STATUS_AVISO;
+}
+#ID_GEN_STATUS_USER {
+	box-sizing: border-box;
+	grid-area: ID_GEN_STATUS_USER;
+}
+#ID_GEN_STATUS_MAQUETA {
+	box-sizing: border-box;
+	display: grid;
+	grid-template: 
+		"ID_GEN_STATUS_NAME" auto
+		"ID_GEN_STATUS_AVISO" auto
+		"ID_GEN_STATUS_USER" auto /
+		100%;
+}
+#ID_GEN_STATUS_MAQUETA > * {
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* MAQUETA GEN CABEZA */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+#ID_GEN_CABEZA_TITULO {
+	box-sizing: border-box;
+	grid-area: ID_GEN_CABEZA_TITULO;
+    color: black;
+}
+#ID_GEN_CABEZA_MENUIZQ {
+	box-sizing: border-box;
+	grid-area: ID_GEN_CABEZA_MENUIZQ;
+}
+#ID_GEN_CABEZA_MENUCENTRO {
+	box-sizing: border-box;
+	grid-area: ID_GEN_CABEZA_MENUCENTRO;
+}
+#ID_GEN_CABEZA_MENUDER {
+	box-sizing: border-box;
+	grid-area: ID_GEN_CABEZA_MENUDER;
+}
+#ID_GEN_CABEZA_MAQUETA {
+    background-color: rgba(225, 201, 196);
+    color: rgba(88, 54, 94);   
+	box-sizing: border-box;
+	display: grid;
+    text-align: center;
+	grid-template: 
+		"ID_GEN_CABEZA_TITULO ID_GEN_CABEZA_TITULO ID_GEN_CABEZA_TITULO" auto
+		"ID_GEN_CABEZA_MENUIZQ ID_GEN_CABEZA_MENUCENTRO ID_GEN_CABEZA_MENUDER" auto /
+		15% 70% 15%;
+}
+#ID_GEN_CABEZA_MAQUETA > * {
+    text-align: center;
+}
+.area_titulo_pantalla {
+    text-align: center;
+}
+
+
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* MENU */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.menu_elementos {
+    color: rgba(88, 54, 94);   
+}
+.boton_menu_cuadro {
+    display: inline-block;
+    margin: .25em;
+    color: rgba(88, 54, 94);   
+}
+.boton_menu_cuadro_icono {
+    display: block;
+    text-decoration: none;
+    margin: 8px;
+    color: rgba(88, 54, 94);   
+}
+.boton_menu_cuadro_texto {
+    display: block;
+    text-decoration: none;
+    color: rgba(88, 54, 94);   
+}
+
+/*/////////////////////////////////*/
+
+.boton_menu_dark {
+    display: inline-block;
+    padding: 2px;
+    z-index: 10;
+}
+
+.boton_menu_dark_d {
+    display: inline-block;
+    color: black;   
+}
+
+.boton_menu_dark_icono {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: .8rem;
+    padding: 6px;
+}
+
+.boton_menu_dark_d_icono {
+    display: block;
+    text-decoration: none;
+    color: black;   
+}
+
+.boton_menu_dark_texto {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: .8rem;
+    padding: 6px;
+    font-weight: bold;
+}
+
+.boton_menu_dark_d_texto {
+    display: block;
+    text-decoration: none;
+    color: black;   
+}
+
+.disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+    color: rgba(98, 93, 92, .5);
+}
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* MAQUETA GEN STATUS */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.area_cinta {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* MAQUETA CUERPO */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+#ID_GEN_CUERPO_IZQ {
+	box-sizing: border-box;
+	grid-area: ID_GEN_CUERPO_IZQ;
+}
+#ID_GEN_CUERPO_CENTRO {
+	box-sizing: border-box;
+	grid-area: ID_GEN_CUERPO_CENTRO;
+}
+#ID_GEN_CUERPO_DER {
+	box-sizing: border-box;
+	grid-area: ID_GEN_CUERPO_DER;
+}
+#ID_GEN_CUERPO_MAQUETA {
+	box-sizing: border-box;
+	display: grid;
+	grid-template: 
+        "ID_GEN_CUERPO_CENTRO" auto
+        "ID_GEN_CUERPO_IZQ" auto
+		"ID_GEN_CUERPO_DER" auto /
+		100%;
+}
+#ID_GEN_CUERPO_MAQUETA > * {
+    text-align: center;
+}
+
+#ID_TRABAJO_CABEZA {
+    background-color: rgba(225, 201, 196);
+    color: rgba(88, 54, 94);   
+	box-sizing: border-box;
+    text-align: center;
+}
+
+#ID_TRABAJO_ESCRITORIO {
+    background-color: rgba(225, 201, 196);
+    color: rgba(88, 54, 94);   
+	box-sizing: border-box;
+    text-align: center;
+}
+
+#ID_TRABAJO_PIE {
+    background-color: rgba(225, 201, 196);
+    color: rgba(88, 54, 94);   
+	box-sizing: border-box;
+}
+
+#ID_GEN_CUERPO_CENTRO {
+    background-color: rgba(88, 54, 94, .5);
+}
+#ID_GEN_CUERPO_CENTRO > * {
+    margin: .25em;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* VENTANA MODAL
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.modal_oculto {
+
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 2150px;
+    background-color: rgba(225, 201, 196, .5);
+    top: 0px;
+    right: 0px;
+
+}
+
+.modal_activo {
+
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2150px;
+    background-color: rgba(225, 201, 196, .5);
+    top: 0px;
+    right: 0px;
+
+}
+
+#ID_COMERCIOSOLIDARIO_MODAL_OPCION_BUTTON {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#ID_OK_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#ID_SI_AGREGA_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#ID_NO_AGREGA_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#ID_SI_REESTABLECE_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#ID_NO_REESTABLECE_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#ID_SI_LIMPIA_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#ID_NO_LIMPIA_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+
+#ID_SI_ACTUALIZA_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#ID_NO_ACTUALIZA_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* VENTANA MODAL*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.ventana_modal {
+	box-sizing: border-box;
+    background-color: rgba(225, 201, 196);   
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    max-width: 280px;
+}
+
+.ventana_modal > * {
+}
+
+.ventana_modal::backdrop {
+    background-color: rgba(225, 201, 196, 0.3);   
+}
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* BREAK 545 */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+@media (min-width: 545px) {
+	#ID_GEN_STATUS_MAQUETA {
+		grid-template: 
+			"ID_GEN_STATUS_NAME ID_GEN_STATUS_AVISO ID_GEN_STATUS_USER" auto /
+			33% 34% 33%;
+	}
+    #ID_GEN_CUERPO_MAQUETA {
+        grid-template: 
+            "ID_GEN_CUERPO_IZQ ID_GEN_CUERPO_CENTRO ID_GEN_CUERPO_DER" auto /
+            5% 90% 5%;
+    }
+}

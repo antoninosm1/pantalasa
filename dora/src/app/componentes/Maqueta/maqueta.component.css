@@ -1,0 +1,105 @@
+
+/* PARAMETROS GENERALES */
+
+    
+    html {
+        box-sizing: border-box;
+        height: 100%;
+        width: 100%;
+        font-size: 12px;
+    }
+    
+    
+    body {
+        box-sizing: border-box;
+        width: 100%;
+        min-height: 100%;
+        background-color: green;
+    }
+    
+    /* PARAMETROS DE LA MAQUETA PRINCIPAL */
+    
+    #ID_MAQUETA_PRINCIPAL_CABECERA {
+        box-sizing: border-box;
+        grid-area: ID_MAQUETA_PRINCIPAL_CABECERA;
+    }
+    
+    #ID_MAQUETA_PRINCIPAL_MENU {
+        box-sizing: border-box;
+        grid-area: ID_MAQUETA_PRINCIPAL_MENU;
+    }
+    
+    #ID_MAQUETA_PRINCIPAL_PRINCIPAL {
+        box-sizing: border-box;
+        grid-area: ID_MAQUETA_PRINCIPAL_PRINCIPAL;
+    }
+    
+    #ID_MAQUETA_PRINCIPAL_LATERAL {
+        box-sizing: border-box;
+        grid-area: ID_MAQUETA_PRINCIPAL_LATERAL;
+    }
+    
+    #ID_MAQUETA_PRINCIPAL_PIE {
+        box-sizing: border-box;
+        grid-area: ID_MAQUETA_PRINCIPAL_PIE;
+    }
+    
+    .maqueta_principal {
+        box-sizing: border-box;
+        background-color: gray;
+        border: solid 1px red;
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template: 
+            "ID_MAQUETA_PRINCIPAL_CABECERA" auto
+            "ID_MAQUETA_PRINCIPAL_MENU" auto
+            "ID_MAQUETA_PRINCIPAL_PRINCIPAL" auto
+            "ID_MAQUETA_PRINCIPAL_LATERAL" auto
+            "ID_MAQUETA_PRINCIPAL_PIE" auto /
+            100%;
+    }
+
+    .maqueta_principal > * {
+        border: solid 1px green;
+        height: 100%;
+    }
+
+    .maqueta_principal_modal_close {
+        position: absolute;
+        display: none;
+    }
+    
+    @media (min-width: 545px) {
+        .maqueta_principal {
+            grid-template: 
+                "ID_MAQUETA_PRINCIPAL_CABECERA" auto
+                "ID_MAQUETA_PRINCIPAL_MENU" auto
+                "ID_MAQUETA_PRINCIPAL_PRINCIPAL" auto
+                "ID_MAQUETA_PRINCIPAL_LATERAL" auto
+                "ID_MAQUETA_PRINCIPAL_PIE" auto /
+                100%;
+            }
+    }
+    @media (min-width: 680px) {
+        .maqueta_principal {
+            grid-template: 
+                "ID_MAQUETA_PRINCIPAL_CABECERA ID_MAQUETA_PRINCIPAL_CABECERA" auto
+                "ID_MAQUETA_PRINCIPAL_MENU ID_MAQUETA_PRINCIPAL_MENU" auto
+                "ID_MAQUETA_PRINCIPAL_LATERAL ID_MAQUETA_PRINCIPAL_PRINCIPAL" auto
+                "ID_MAQUETA_PRINCIPAL_PIE ID_MAQUETA_PRINCIPAL_PIE" auto /
+                30% 70%;
+            }
+    }
+    
+    @media (min-width: 920px) {
+        .maqueta_principal {
+            grid-template: 
+                "ID_MAQUETA_PRINCIPAL_CABECERA ID_MAQUETA_PRINCIPAL_CABECERA" auto
+                "ID_MAQUETA_PRINCIPAL_MENU ID_MAQUETA_PRINCIPAL_MENU" auto
+                "ID_MAQUETA_PRINCIPAL_LATERAL ID_MAQUETA_PRINCIPAL_PRINCIPAL" auto
+                "ID_MAQUETA_PRINCIPAL_PIE ID_MAQUETA_PRINCIPAL_PIE" auto /
+                30% 70%;
+            }
+    }
+    

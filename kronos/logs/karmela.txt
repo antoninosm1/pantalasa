@@ -1,0 +1,240 @@
+ 
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-24 00:22:18 INICIAMOS sistemas.php
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ 
+ 
+2025-11-24 00:22:19XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-24 00:22:19XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-24 00:22:19XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-24 00:22:19 INICIAMOS consulta_gradilla_sitemas.php
+2025-11-24 00:22:19XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-24 00:22:19XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-24 00:22:19XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ 
+[24-Nov-2025 00:22:19 Europe/Berlin] PHP Warning:  Consulta::ejecuta(): The script tried to access a property on an incomplete object. Please ensure that the class definition &quot;Conexion_comerciosolidario&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[24-Nov-2025 00:22:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[24-Nov-2025 00:22:19 Europe/Berlin] PHP Warning:  Consulta::ejecuta(): The script tried to access a property on an incomplete object. Please ensure that the class definition &quot;Conexion_comerciosolidario&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[24-Nov-2025 00:22:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[24-Nov-2025 00:22:19 Europe/Berlin] PHP Warning:  Consulta::ejecuta(): The script tried to access a property on an incomplete object. Please ensure that the class definition &quot;Conexion_comerciosolidario&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[24-Nov-2025 00:22:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[24-Nov-2025 00:22:19 Europe/Berlin] PHP Warning:  Consulta::ejecuta(): The script tried to access a property on an incomplete object. Please ensure that the class definition &quot;Conexion_comerciosolidario&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[24-Nov-2025 00:22:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[24-Nov-2025 00:22:19 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php:517
+Stack trace:
+#0 C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php(517): mysqli->__construct(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 C:\xampp\htdocs\pantalasa\kronos\php\consulta_gradilla_sistemas.php(74): Consulta->ejecuta()
+#2 {main}
+  thrown in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+ 
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 01:54:16 INICIAMOS sistemas.php
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ 
+ 
+2025-11-26 01:54:16XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 01:54:16XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 01:54:16XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 01:54:16 INICIAMOS consulta_gradilla_sitemas.php
+2025-11-26 01:54:16XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 01:54:16XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 01:54:16XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ 
+[26-Nov-2025 01:54:16 Europe/Berlin] PHP Warning:  Consulta::ejecuta(): The script tried to access a property on an incomplete object. Please ensure that the class definition &quot;Conexion_comerciosolidario&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 01:54:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 01:54:16 Europe/Berlin] PHP Warning:  Consulta::ejecuta(): The script tried to access a property on an incomplete object. Please ensure that the class definition &quot;Conexion_comerciosolidario&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 01:54:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 01:54:16 Europe/Berlin] PHP Warning:  Consulta::ejecuta(): The script tried to access a property on an incomplete object. Please ensure that the class definition &quot;Conexion_comerciosolidario&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 01:54:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 01:54:16 Europe/Berlin] PHP Warning:  Consulta::ejecuta(): The script tried to access a property on an incomplete object. Please ensure that the class definition &quot;Conexion_comerciosolidario&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 01:54:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 01:54:16 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php:517
+Stack trace:
+#0 C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php(517): mysqli->__construct(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 C:\xampp\htdocs\pantalasa\kronos\php\consulta_gradilla_sistemas.php(74): Consulta->ejecuta()
+#2 {main}
+  thrown in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+ 
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 01:56:47 INICIAMOS sistemas.php
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ 
+ 
+2025-11-26 01:56:47XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 01:56:47XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 01:56:47XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 01:56:47 INICIAMOS consulta_gradilla_sitemas.php
+2025-11-26 01:56:47XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 01:56:47XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 01:56:47XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ 
+[26-Nov-2025 01:56:47 Europe/Berlin] PHP Warning:  Consulta::ejecuta(): The script tried to access a property on an incomplete object. Please ensure that the class definition &quot;Conexion_comerciosolidario&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 01:56:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 01:56:47 Europe/Berlin] PHP Warning:  Consulta::ejecuta(): The script tried to access a property on an incomplete object. Please ensure that the class definition &quot;Conexion_comerciosolidario&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 01:56:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 01:56:47 Europe/Berlin] PHP Warning:  Consulta::ejecuta(): The script tried to access a property on an incomplete object. Please ensure that the class definition &quot;Conexion_comerciosolidario&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 01:56:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 01:56:47 Europe/Berlin] PHP Warning:  Consulta::ejecuta(): The script tried to access a property on an incomplete object. Please ensure that the class definition &quot;Conexion_comerciosolidario&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 01:56:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 01:56:47 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php:517
+Stack trace:
+#0 C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php(517): mysqli->__construct(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 C:\xampp\htdocs\pantalasa\kronos\php\consulta_gradilla_sistemas.php(74): Consulta->ejecuta()
+#2 {main}
+  thrown in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+ 
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 02:27:10 INICIAMOS sistemas.php
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ 
+ 
+2025-11-26 02:27:11XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 02:27:11XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 02:27:11XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 02:27:11 INICIAMOS consulta_gradilla_sitemas.php
+2025-11-26 02:27:11XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 02:27:11XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 02:27:11XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ 
+[26-Nov-2025 02:27:11 Europe/Berlin] PHP Warning:  Consulta::ejecuta(): The script tried to access a property on an incomplete object. Please ensure that the class definition &quot;Conexion_comerciosolidario&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:27:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:27:11 Europe/Berlin] PHP Warning:  Consulta::ejecuta(): The script tried to access a property on an incomplete object. Please ensure that the class definition &quot;Conexion_comerciosolidario&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:27:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:27:11 Europe/Berlin] PHP Warning:  Consulta::ejecuta(): The script tried to access a property on an incomplete object. Please ensure that the class definition &quot;Conexion_comerciosolidario&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:27:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:27:11 Europe/Berlin] PHP Warning:  Consulta::ejecuta(): The script tried to access a property on an incomplete object. Please ensure that the class definition &quot;Conexion_comerciosolidario&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:27:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:27:11 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php:517
+Stack trace:
+#0 C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php(517): mysqli->__construct(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 C:\xampp\htdocs\pantalasa\kronos\php\consulta_gradilla_sistemas.php(74): Consulta->ejecuta()
+#2 {main}
+  thrown in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+ 
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 02:42:47 INICIAMOS sistemas.php
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ 
+ 
+2025-11-26 02:42:47XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 02:42:47XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 02:42:47XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 02:42:47 INICIAMOS consulta_gradilla_sitemas.php
+2025-11-26 02:42:47XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 02:42:47XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 02:42:47XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ 
+[26-Nov-2025 02:42:47 Europe/Berlin] PHP Warning:  Consulta::ejecuta(): The script tried to access a property on an incomplete object. Please ensure that the class definition &quot;Conexion_comerciosolidario&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:42:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:42:47 Europe/Berlin] PHP Warning:  Consulta::ejecuta(): The script tried to access a property on an incomplete object. Please ensure that the class definition &quot;Conexion_comerciosolidario&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:42:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:42:47 Europe/Berlin] PHP Warning:  Consulta::ejecuta(): The script tried to access a property on an incomplete object. Please ensure that the class definition &quot;Conexion_comerciosolidario&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:42:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:42:47 Europe/Berlin] PHP Warning:  Consulta::ejecuta(): The script tried to access a property on an incomplete object. Please ensure that the class definition &quot;Conexion_comerciosolidario&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:42:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:42:47 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php:517
+Stack trace:
+#0 C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php(517): mysqli->__construct(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 C:\xampp\htdocs\pantalasa\kronos\php\consulta_gradilla_sistemas.php(74): Consulta->ejecuta()
+#2 {main}
+  thrown in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+ 
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 02:57:27 INICIAMOS sistemas.php
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ 
+ 
+2025-11-26 02:57:27XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 02:57:27XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 02:57:27XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 02:57:27 INICIAMOS consulta_gradilla_sitemas.php
+2025-11-26 02:57:27XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 02:57:27XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 02:57:27XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ 
+[26-Nov-2025 02:57:27 Europe/Berlin] PHP Warning:  Consulta::ejecuta(): The script tried to access a property on an incomplete object. Please ensure that the class definition &quot;Conexion_comerciosolidario&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:57:27 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:57:27 Europe/Berlin] PHP Warning:  Consulta::ejecuta(): The script tried to access a property on an incomplete object. Please ensure that the class definition &quot;Conexion_comerciosolidario&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:57:27 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:57:27 Europe/Berlin] PHP Warning:  Consulta::ejecuta(): The script tried to access a property on an incomplete object. Please ensure that the class definition &quot;Conexion_comerciosolidario&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:57:27 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:57:27 Europe/Berlin] PHP Warning:  Consulta::ejecuta(): The script tried to access a property on an incomplete object. Please ensure that the class definition &quot;Conexion_comerciosolidario&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:57:27 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:57:27 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php:517
+Stack trace:
+#0 C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php(517): mysqli->__construct(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 C:\xampp\htdocs\pantalasa\kronos\php\consulta_gradilla_sistemas.php(74): Consulta->ejecuta()
+#2 {main}
+  thrown in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+ 
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 02:57:44 INICIAMOS sistemas.php
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ 
+ 
+2025-11-26 02:57:44XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 02:57:44XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 02:57:44XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 02:57:44 INICIAMOS consulta_gradilla_sitemas.php
+2025-11-26 02:57:44XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 02:57:44XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 02:57:44XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ 
+[26-Nov-2025 02:57:44 Europe/Berlin] PHP Warning:  Consulta::ejecuta(): The script tried to access a property on an incomplete object. Please ensure that the class definition &quot;Conexion_comerciosolidario&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:57:44 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:57:44 Europe/Berlin] PHP Warning:  Consulta::ejecuta(): The script tried to access a property on an incomplete object. Please ensure that the class definition &quot;Conexion_comerciosolidario&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:57:44 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:57:44 Europe/Berlin] PHP Warning:  Consulta::ejecuta(): The script tried to access a property on an incomplete object. Please ensure that the class definition &quot;Conexion_comerciosolidario&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:57:44 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:57:44 Europe/Berlin] PHP Warning:  Consulta::ejecuta(): The script tried to access a property on an incomplete object. Please ensure that the class definition &quot;Conexion_comerciosolidario&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:57:44 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:57:44 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php:517
+Stack trace:
+#0 C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php(517): mysqli->__construct(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 C:\xampp\htdocs\pantalasa\kronos\php\consulta_gradilla_sistemas.php(74): Consulta->ejecuta()
+#2 {main}
+  thrown in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+ 
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 02:59:05 INICIAMOS sistemas.php
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ 
+ 
+2025-11-26 02:59:06XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 02:59:06XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 02:59:06XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 02:59:06 INICIAMOS consulta_gradilla_sitemas.php
+2025-11-26 02:59:06XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 02:59:06XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2025-11-26 02:59:06XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ 
+[26-Nov-2025 02:59:06 Europe/Berlin] PHP Warning:  Consulta::ejecuta(): The script tried to access a property on an incomplete object. Please ensure that the class definition &quot;Conexion_comerciosolidario&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:59:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:59:06 Europe/Berlin] PHP Warning:  Consulta::ejecuta(): The script tried to access a property on an incomplete object. Please ensure that the class definition &quot;Conexion_comerciosolidario&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:59:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:59:06 Europe/Berlin] PHP Warning:  Consulta::ejecuta(): The script tried to access a property on an incomplete object. Please ensure that the class definition &quot;Conexion_comerciosolidario&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:59:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:59:06 Europe/Berlin] PHP Warning:  Consulta::ejecuta(): The script tried to access a property on an incomplete object. Please ensure that the class definition &quot;Conexion_comerciosolidario&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:59:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517
+[26-Nov-2025 02:59:06 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php:517
+Stack trace:
+#0 C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php(517): mysqli->__construct(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 C:\xampp\htdocs\pantalasa\kronos\php\consulta_gradilla_sistemas.php(74): Consulta->ejecuta()
+#2 {main}
+  thrown in C:\xampp\htdocs\pantalasa\pantalib\php\objetos\new\Consulta.php on line 517

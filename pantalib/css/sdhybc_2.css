@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgba(139, 14, 153, 0.2), rgba(139, 14, 153, 0.2)), url("../../carrington/imagenes/barrancas.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    max-width: 100%;
+}
+
+main {
+    margin: auto;
+    width: 270px;
+    height: 300px;
+}
+
+.form-login {
+    margin: auto;
+    padding: 5px;
+    display: block;
+    margin: 5vh auto 0px auto;
+    width: 250px;
+    background: rgb(197, 184, 199);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#form-login {
+    height: 180px;
+}
+
+#form-recovery {
+    height: 140px;
+}
+
+#form-change {
+    height: 180px;
+}
+
+#form-recovery-paragraph {
+    font-size: 13px;
+}
+
+#account_recovery {
+    position: relative;
+    left: 50px;
+    top: 15px;
+}
+
+#account_login {
+    position: relative;
+    left: 90px;
+    top: 15px;
+}
+
+#modal-login {
+    height: 135px;
+}
+
+#modal-account {
+    height: 110px;
+}
+
+#modal-recovery {
+    height: 110px;
+}
+
+.modals-login::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modals-contents {
+    margin: 3px auto 1px auto;
+    width: 200px;
+}
+
+.modals-text {
+    font-size: 13px;
+}
+
+.maqueta_ventana {
+	box-sizing: border-box;
+    background-color: rgba(225, 201, 196);   
+    border-radius: 10px;
+    width: 250px;
+    margin-top: 27px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.maqueta_ventana > * {
+    padding: 1px;
+}
+
+.titulo_ventana {
+	box-sizing: border-box;
+    font-weight: bold;
+    text-align: center;
+    padding: 3px;
+}
+
+.area_input {
+	box-sizing: border-box;
+    text-align: center;
+    padding: 2px;
+}
+
+.login_input {
+    margin: 5px auto;
+    height: 28px;
+    width: 230px;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.login_button {
+    border-radius: 11px;
+    cursor: pointer;
+    background: rgb(239, 140, 233);
+    width: auto;
+    padding: 5px;
+}
+
+.login_button:hover {
+    background: rgb(207, 50, 197);
+}
+
+.area_link {
+	box-sizing: border-box;
+    text-align: right;
+    padding: 4px;
+}
+
+.login_link {
+    font-size: 13px;
+    color:rgb(132, 5, 81);
+    margin: 5px;
+    font-size: .7rem;
+}
+
+.login_link:visited {
+    color:rgb(132, 5, 81);
+}
+
+.login_link:hover {
+    color:rgb(199, 113, 183);
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* PANTALLA HOME */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+.maqueta_home {
+	box-sizing: border-box;
+    background-color: rgba(225, 201, 196, .75);   
+    width: 100%;
+}
+.maqueta_home > * {
+    padding: 1px;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* MAQUETA HOME STATUS */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.area_cinta {
+    background-color: black;
+    color: white;
+    font-size: .85em;
+    text-align: center;
+    padding: .1em;
+}
+
+
+#ID_HOME_STATUS_NAME {
+	box-sizing: border-box;
+	grid-area: ID_HOME_STATUS_NAME;
+}
+#ID_HOME_STATUS_AVISO {
+	box-sizing: border-box;
+	grid-area: ID_HOME_STATUS_AVISO;
+}
+#ID_HOME_STATUS_USER {
+	box-sizing: border-box;
+	grid-area: ID_HOME_STATUS_USER;
+}
+#ID_HOME_STATUS_MAQUETA {
+	box-sizing: border-box;
+	display: grid;
+	grid-template: 
+		"ID_HOME_STATUS_NAME" auto
+		"ID_HOME_STATUS_AVISO" auto
+		"ID_HOME_STATUS_USER" auto /
+		100%;
+}
+#ID_HOME_STATUS_MAQUETA > * {
+    border: solid 1px green;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* MAQUETA HOME CABEZA */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+#ID_HOME_CABEZA_TITULO {
+	box-sizing: border-box;
+	grid-area: ID_HOME_CABEZA_TITULO;
+}
+#ID_HOME_CABEZA_MENUIZQ {
+	box-sizing: border-box;
+	grid-area: ID_HOME_CABEZA_MENUIZQ;
+}
+#ID_HOME_CABEZA_MENUCENTRO {
+	box-sizing: border-box;
+	grid-area: ID_HOME_CABEZA_MENUCENTRO;
+}
+#ID_HOME_CABEZA_MENUDER {
+	box-sizing: border-box;
+	grid-area: ID_HOME_CABEZA_MENUDER;
+}
+#ID_HOME_CABEZA_MAQUETA {
+	box-sizing: border-box;
+	display: grid;
+	grid-template: 
+		"ID_HOME_CABEZA_TITULO ID_HOME_CABEZA_TITULO ID_HOME_CABEZA_TITULO" auto
+		"ID_HOME_CABEZA_MENUIZQ ID_HOME_CABEZA_MENUCENTRO ID_HOME_CABEZA_MENUDER" auto /
+		33% 33% 33%;
+}
+#ID_HOME_CABEZA_MAQUETA > * {
+    border: solid 1px orange;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* VENTANA MODAL*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+.ventana_modal {
+	box-sizing: border-box;
+    background-color: rgba(225, 201, 196);   
+    border-radius: 10px;
+    margin: auto;
+    position: absolute;
+    padding: 7px;
+    text-align: center;
+    max-width: 280px;
+}
+
+.ventana_modal > * {
+    padding: 1px;
+}
+
+.ventana_modal::backdrop {
+    background-color: rgba(225, 201, 196, 0.3);   
+}
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* BREAK 545 */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+@media (min-width: 545px) {
+	#ID_HOME_STATUS_MAQUETA {
+		grid-template: 
+			"ID_HOME_STATUS_NAME ID_HOME_STATUS_AVISO ID_HOME_STATUS_USER" auto /
+			33% 33% 33%;
+	}
+}

@@ -1,0 +1,10 @@
+[27-Jun-2023 04:08:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::setcharset() in /home/customer/www/sdhybc.org/public_html/model/connection.php:8
+Stack trace:
+#0 /home/customer/www/sdhybc.org/public_html/controller/session/login.php(2): require()
+#1 {main}
+  thrown in /home/customer/www/sdhybc.org/public_html/model/connection.php on line 8
+[27-Jun-2023 04:09:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::setcharset() in /home/customer/www/sdhybc.org/public_html/model/connection.php:8
+Stack trace:
+#0 /home/customer/www/sdhybc.org/public_html/controller/session/login.php(2): require()
+#1 {main}
+  thrown in /home/customer/www/sdhybc.org/public_html/model/connection.php on line 8

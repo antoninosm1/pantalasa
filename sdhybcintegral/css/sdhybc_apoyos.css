@@ -1,0 +1,4578 @@
+#ID_GEN_CUERPO_CENTRO {
+    font-size: .9em;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* CABEZA AREA TRABAJO CABEZA */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+#ID_TRABAJO_CABEZA_TITULO {
+	box-sizing: border-box;
+	grid-area: ID_TRABAJO_CABEZA_TITULO;
+    color: black;
+    text-align: center;
+    font-size: .9em;
+    padding: 1px;
+}
+#ID_TRABAJO_CABEZA_SUBTITULO {
+	box-sizing: border-box;
+	grid-area: ID_TRABAJO_CABEZA_SUBTITULO;
+    text-align: center;
+    font-size: .9em;
+    padding: 1px;
+}
+#ID_TRABAJO_CABEZA_MAQUETA {
+	box-sizing: border-box;
+    width: 100%;
+    border-radius: .5em;
+    background-color: rgba(225, 201, 196);
+    color: rgba(88, 54, 94);   
+	display: grid;
+    text-align: center;
+    padding: 1px;
+    text-align: center;
+    font-size: .9em;
+	grid-template: 
+		"ID_TRABAJO_CABEZA_TITULO" auto
+		"ID_TRABAJO_CABEZA_SUBTITULO" auto /
+		100%;
+}
+
+#ID_TRABAJO_CABEZA > * {
+    padding: 1px;
+    font-size: .9em;
+}
+#ID_TRABAJO_CABEZA_APOYOS > * {
+    padding: 1px;
+    font-size: .9em;
+}
+
+#ID_APOYOS_PANEL {
+	box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+}
+
+#ID_APOYOS_PANEL_1_1 {
+	box-sizing: border-box;
+    font-weight: bold;
+    text-align: center;
+    padding: 1px;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* CABEZA AREA TRABAJO ESCRITORIO */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+#ID_TRABAJO_ESCRITORIO {
+    box-sizing: border-box;
+    font-weight: bold;
+    padding: 2px;
+}
+#ID_TRABAJO_ESCRITORIO > * {
+    padding: 1px;
+    margin: 2px;
+}
+
+
+
+
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_1 {
+	box-sizing: border-box;
+	grid-area: ID_TRABAJO_ESCRITORIO_MAQUETA_1;
+    margin: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_2 {
+	box-sizing: border-box;
+    padding: .5em;
+	grid-area: ID_TRABAJO_ESCRITORIO_MAQUETA_2;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_3 {
+	box-sizing: border-box;
+	grid-area: ID_TRABAJO_ESCRITORIO_MAQUETA_3;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_4 {
+	box-sizing: border-box;
+	grid-area: ID_TRABAJO_ESCRITORIO_MAQUETA_4;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA {
+	box-sizing: border-box;
+    display: grid;
+    grid-template: 
+        "ID_TRABAJO_ESCRITORIO_MAQUETA_1" auto
+        "ID_TRABAJO_ESCRITORIO_MAQUETA_2" auto
+        "ID_TRABAJO_ESCRITORIO_MAQUETA_3" auto
+        "ID_TRABAJO_ESCRITORIO_MAQUETA_4" auto /
+        100%;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA > * {
+ /*   border: solid 1px white; */
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* LISTA DESPLEGABLE
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+.select_lista_desplegable {
+    width: 100%;
+    font-size: .90em;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* GRADILLA MAQUETA GENERAL
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+#IDXX_2_1 {
+	box-sizing: border-box;
+	grid-area: IDXX_2_1;
+    font-size: .75em;
+}
+
+#IDXX_2_2 {
+	box-sizing: border-box; 
+	grid-area: IDXX_2_2;
+    font-size: .75em;
+}
+
+#ID_2_3 {
+	box-sizing: border-box;
+	grid-area: ID_2_3;
+    font-size: .75em;
+}
+
+#IDXX_2 {
+	box-sizing: border-box;
+    display: grid;
+    grid-template: 
+        "IDXX_2_1" auto
+        "IDXX_2_2" auto /
+        100%;
+}
+
+#IDXX_2 > * {
+    border: solid 1px green; 
+    font-size: .75em;
+}
+
+#IDXX_2_2 > * {
+/*    border: solid 1px green; */ 
+    padding: .5em;
+}
+
+#IDXX_2_3_1 > * {
+    border: solid 1px orange;
+}
+
+.gradilla {
+    font-size: .75em;
+}
+
+.gradilla_titulogradilla {
+    box-sizing: border-box;    
+    display: block;
+    width: 100%;
+    font-weight: bold;
+}
+
+.gradilla_encabezadosgradilla {
+    position: relative;
+    box-sizing: border-box;    
+    display: inline-block;
+    width: 100%;
+}
+
+.gradilla_encabezadosgradilla_oculto {
+    position: absolute;
+    display: none;
+}
+
+.gradilla_encabezados_elemento {
+    box-sizing: border-box;    
+    display: inline-block;
+    border: solid 1px gray;
+}
+
+.gradilla_renglongrid {
+    box-sizing: border-box;    
+    display: block;
+    width: 100%;
+    border: 1px solid gray;
+}
+
+.gradilla_celda {
+    box-sizing: border-box;    
+    display: inline-block;
+    padding: 1px;
+    color: blue;
+}
+
+.gradilla_celda_dato {
+    box-sizing: border-box;    
+}
+
+.gradilla_celda_dato:hover {
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
+
+.gradilla_uno {
+    width: 1%;
+}
+
+.gradilla_dospuntocinco {
+    width: 2.5%;
+}
+
+.gradilla_cinco {
+    width: 5%;
+}
+
+.gradilla_sietepuntocinco {
+    width: 7.5%;
+}
+
+.gradilla_diez {
+    width: 10%;
+}
+
+.gradilla_docepuntocinco {
+    width: 12.5%;
+}
+
+.gradilla_quince {
+    width: 15%;
+}
+
+.gradilla_diecisietepuntocinco {
+    width: 17.5%;
+}
+
+.gradilla_veinte {
+    width: 20%;
+}
+
+.gradilla_veintidospuntocinco {
+    width: 22.5%;
+}
+
+.gradilla_veinticinco {
+    width: 25%;
+}
+
+.gradilla_veintisietepuntocinco {
+    width: 27.5%;
+}
+
+.gradilla_treinta {
+    width: 30%;
+}
+
+.gradilla_treintaidospuntocinco {
+    width: 32.5%;
+}
+
+.gradilla_treintaicinco {
+    width: 35%;
+}
+
+.gradilla_treintaisietepuntocinco {
+    width: 37.5%;
+}
+
+.gradilla_cuarenta {
+    width: 40%;
+}
+
+.gradilla_cuarentaidospuntocinco {
+    width: 42.5%;
+}
+
+.gradilla_cuarentaicinco {
+    width: 45%;
+}
+
+.gradilla_cuarentaisietepuntocinco {
+    width: 47.5%;
+}
+
+.gradilla_cincuenta {
+    width: 50%;
+}
+
+.gradilla_cincuentaidospuntocinco {
+    width: 52.5%;
+}
+
+.gradilla_cincuentaicinco {
+    width: 55%;
+}
+
+.gradilla_sesenta {
+    width: 60%;
+}
+
+.gradilla_sesentaicinco {
+    width: 65%;
+}
+
+.gradilla_setenta {
+    width: 70%;
+}
+
+.gradilla_setentaicinco {
+    width: 75%;
+}
+
+.gradilla_ochenta {
+    width: 80%;
+}
+
+.gradilla_ochentaicinco {
+    width: 85%;
+}
+
+.gradilla_noventa {
+    width: 90%;
+}
+
+.gradilla_noventaicinco {
+    width: 95%;
+}
+
+.gradilla_cien {
+    width: 100%;
+}
+
+.gradilla_uno_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_dospuntocinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_cinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_sietepuntocinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_diez_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_docepuntocinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_quince_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_diecisietepuntocinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_veinte_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_veintidospuntocinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_veinticinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_veintisietepuntocinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_treinta_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_treintaidospuntocinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_treintaicinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_treintaisietepuntocinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_cuarenta_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_cuarentaidospuntocinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_cuarentaicinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_cuarentaisietepuntocinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_cincuenta_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_cincuentaidospuntocinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_cincuentaicinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_sesenta_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_sesentaicinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_setenta_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_setentaicinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_ochenta_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_ochentaicinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_noventa_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_noventaicinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_cien_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_titulorenglon {
+    display: inline-block;
+    width: 25%;
+    font-weight: bold;
+    text-align: right;
+    padding: 1px;
+    background: gray;
+    color: white;
+    border: solid 1px white;
+}
+
+.gradilla_titulorenglon_oculto {
+    position: absolute;
+    display: none;
+}
+
+.gradilla_cuerpogradilla {
+    overflow: auto;
+    height: 100px;
+    color: gray;
+    background-color: white; 
+}
+
+.gradilla_cuerpogradilla::-webkit-scrollbar {
+    width: 4px;
+}
+.gradilla_cuerpogradilla::-webkit-scrollbar-track {
+    background: blueviolet;
+}
+.gradilla_cuerpogradilla::-webkit-scrollbar-track-thumb {
+    background: black;
+}
+.gradilla_cuerpogradilla::-webkit-scrollbar-button {
+    height: 12px;
+    background: black;
+    color:brown
+}
+
+#ID_GRADILLA_FAMILIARES_CUERPOGRADILLA {
+    overflow: auto;
+    height: 75px;
+    color: gray;
+    background-color: white; 
+}
+
+
+
+.gradilla_controlesgradilla {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.gradilla_controlesgradilla_0 {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+/*    border: 1px solid green; */
+    flex-wrap: wrap;
+}
+
+.gradilla_controlesgradilla_0_0 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 3px;
+    margin: 3px;
+    font-size: .65rem;
+    width: auto;
+/*    border: 1px solid green; */
+}
+
+.gradilla_controlesgradilla_0_0_0 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 3px;
+    margin: 3px;
+    font-size: .75rem;
+    width: auto;
+/*    border: 1px solid green; */
+    margin: auto;
+    color: rgba(88, 54, 94);   
+}
+
+.gradilla_controlesgradilla_0_0_0:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.gradilla_texto {
+    padding: 3px;
+    margin: 3px;
+    font-size: .65rem;
+    width: auto;
+    color: rgba(88, 54, 94);
+}
+
+
+
+
+.gradilla_controlesgradilla_orientacion {
+/*    border: 1px solid green; */
+    display: inline-block;
+    padding: 1px;
+    margin: 1px;
+}
+
+.gradilla_controlesgradilla_botones {
+/*    border: 1px solid green; */
+    display: inline-block;
+    padding: 1px;
+    margin: 1px;
+}
+
+.gradilla_controlesgradilla_paginas {
+/*    border: 1px solid green; */
+    display: inline-block;
+    margin: 1px;
+}
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* ELEMENTOS
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_2_2_4 {
+    color: rgba(88, 54, 94);   
+    display: inline-block;
+    margin: .1em;
+}
+#ID_BOTON_RECARGA {
+    color: rgba(88, 54, 94);   
+    padding: .3em;
+    display: inline-block;
+}
+.boton_link_icono_chico_icono {
+    padding: .3em;    
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+#ID_BOTON_RECARGA_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+}
+.disabled_2 {
+    cursor: not-allowed;
+    pointer-events: none;
+    background-color: rgba(98, 93, 92, .5);
+    color: rgb(136, 134, 137);   
+}
+.disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+    color: rgb(136, 134, 137);   
+}
+.boton_link_icono_chico_texto {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+}
+
+.oculto_limpiar_familiar {
+    display: none;
+    position: absolute;
+}
+
+.oculto_reestablecer_familiar {
+    display: none;
+    position: absolute;
+}
+
+.oculto_grabar_familiar {
+    display: none;
+    position: absolute;
+}
+
+.oculto_actualizar_familiar {
+    display: none;
+    position: absolute;
+}
+
+.oculto_eliminar_familiar {
+    display: none;
+    position: absolute;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* AREA DE APOYOS MAQUETA GENERAL
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.areas_registro {
+/*    border: 1px solid green; */
+    font-size: .75em;
+}
+
+.areas_registro > * {
+/*    border: 1px solid gray; */
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_1_1 {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: column;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_1_1_1 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+/*    border: 1px solid gray; */
+    margin: 3px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_1_1_2 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+/*    border: 1px solid gray; */
+    margin: 3px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_1_2 {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_1_2_1 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+/*    border: 1px solid gray; */
+    margin: 3px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_1_2_2 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+/*    border: 1px solid gray; */
+    margin: 3px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_1_2_3 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+/*    border: 1px solid gray; */
+margin: 3px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_1_2_4 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+/*    border: 1px solid gray; */
+    margin: 3px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_1_2_5 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+/*    border: 1px solid gray; */
+    margin: 3px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_1_2_6 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+/*    border: 1px solid gray; */
+    margin: 3px;
+}
+
+.boton_oculto {
+    position: absolute;
+    display: none;    
+}
+
+#ID_BOTON_LIMPIA_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+}
+
+#ID_BOTON_REESTABLECE_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+}
+
+#ID_BOTON_NUEVA_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+}
+
+#ID_BOTON_ACTUALIZA_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#ID_BOTON_AGREGA_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.areas_registro_apoyos_oculto {
+    position: absolute;
+    display: none;    
+}
+
+.ID_3_3_CL_0 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+}
+
+.ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_CL_1 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+}
+
+.ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_CL_2 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+}
+
+.ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_CL_3 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_5 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+}
+
+.elemento_oculto_sub_sub {
+	box-sizing: border-box;
+    width: 31%;
+    min-width: 275px;
+    max-width: 350px;
+    height: auto;
+    background-color: rgba(167, 166, 166);
+    border-radius: 4px;
+    font-size: .9em;
+    color: black;
+    font-weight: bolder;
+    margin: 5px;
+    text-align: center;
+    padding: 2px;
+}
+
+.elemento_oculto_sub_sub_sub {
+	box-sizing: border-box;
+    display: flex;
+    padding: 2px;
+}
+
+#ID_3_3_1_1 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+#ID_3_3_1_2_1 {
+	box-sizing: border-box;
+    width: 40%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_3_3_1_2_2 {
+	box-sizing: border-box;
+    width: 60%;
+    text-align: left;
+    padding: 2px;
+    font-size: 1.2em;
+}
+
+#ID_3_3_1_3_1 {
+	box-sizing: border-box;
+    width: 40%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_3_3_1_3_2 {
+	box-sizing: border-box;
+    width: 60%;
+    text-align: left;
+    padding: 2px;
+    font-size: 1.2em;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+*/
+
+#ID_3_3_2_1 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+#ID_3_3_2_2_1 {
+	box-sizing: border-box;
+    width: 40%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_3_3_2_2_2 {
+	box-sizing: border-box;
+    width: 60%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_3_3_2_3_1 {
+	box-sizing: border-box;
+    width: 40%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_3_3_2_3_2 {
+	box-sizing: border-box;
+    width: 60%;
+    text-align: left;
+    padding: 2px;
+}
+
+.ID_3_3_2_6_CL_5 {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+}
+#ID_3_3_2_7 {
+    text-align: center;
+    font-size: 1.2em;
+}
+#ID_3_3_2_8 {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+*/
+
+#ID_3_3_3_1 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+#ID_3_3_3_2_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_3_3_3_2_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+    font-size: 1.2em;
+}
+
+#ID_3_3_3_3_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_3_3_3_3_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+    font-size: 1.2em;
+}
+
+#ID_3_3_3_4_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_3_3_3_4_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+    font-size: 1.2em;
+}
+
+#ID_3_3_3_5_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_3_3_3_5_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+    font-size: 1.2em;
+}
+
+#ID_3_3_3_6_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_3_3_3_6_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+    font-size: 1.2em;
+}
+
+
+#ID_3_3_4_1 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+#ID_3_3_4_2 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+
+
+
+
+
+
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+*/
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_1_1 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_1_2_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_1_2_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_1_3_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_1_3_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_1_4_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_1_4_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_1_5_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_1_5_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_1_6_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_1_6_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+*/
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_2_1 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_2_2_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_2_2_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_2_3_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_2_3_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_2_4_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_2_4_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_2_5_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_2_5_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_2_6_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_2_6_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_2_7_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_2_7_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_2_8_1 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_2_8_2 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+*/
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_3_1 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_3_2_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_3_2_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_3_3_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_3_3_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_3_4_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_3_4_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_3_5_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_3_5_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+*/
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_4_1 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_4_2_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_4_2_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_4_3_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_4_3_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_4_4_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_4_4_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_4_5_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_4_5_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+*/
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_5_1 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_5_2_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_5_2_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_5_3_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_5_3_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_5_4_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_5_4_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_5_5_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_5_5_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_5_6_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_5_6_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+*/
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_6_1 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_6_2_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_6_2_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_6_3_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_6_3_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_6_4_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_6_4_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+*/
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_7_1 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_7_2_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_7_2_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_7_3_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_7_3_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_7_4_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_7_4_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_7_5_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_7_5_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+*/
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_8_1 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_8_2_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_8_2_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_8_3_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_8_3_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_8_4_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_8_4_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_8_5_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_8_5_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+*/
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_9_1 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_9_2_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_9_2_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_9_3_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_9_3_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_9_4_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_9_4_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_9_5_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_9_5_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+*/
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_10_1 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_10_2_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_10_2_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_10_3_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_10_3_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_10_4_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_10_4_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_10_5_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_10_5_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_10_6_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_10_6_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_10_7_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_10_7_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_11_1 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_11_2 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_2_11_3 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+
+
+
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+*/
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_1_1 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_1_2_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_1_2_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_1_3_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_1_3_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_1_4_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_1_4_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_1_5_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_1_5_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_1_6_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_1_6_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_1_7_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_1_7_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+*/
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_2_1 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_2_2_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_2_2_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_2_3_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_2_3_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_2_4_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_2_4_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_2_5_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_2_5_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_2_6_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_2_6_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_2_7_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_2_7_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+*/
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_3_1 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_3_2_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_3_2_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_3_3_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_3_3_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_3_4_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_3_4_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+*/
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_4_1 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_4_2 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_4_3_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_4_3_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_4_4_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_4_4_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_4_5_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_4_5_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_4_6_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_4_6_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_4_7_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_4_7_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_4_8_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_4_8_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_4_9 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_4_10_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_4_10_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_4_11_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_4_11_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_4_12 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_4_13_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_4_13_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_4_14_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_4_14_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_4_15_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_4_15_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_4_16_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_4_16_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_4_17_1 {
+	box-sizing: border-box;
+    width: 70%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_4_17_2 {
+	box-sizing: border-box;
+    width: 30%;
+    text-align: left;
+    padding: 2px;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+*/
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_5_1 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_5_2_1 {
+	box-sizing: border-box;
+    width: 100%;
+    height: 200px;
+    padding: 2px;
+}
+
+#ID_DATO_84_83 > * {
+    width: 100%;
+    height: 100%;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_6_1 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_6_2 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_3_6_3 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+
+
+
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+*/
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_3_1 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_3_2_1 {
+	box-sizing: border-box;
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_3_2_2 {
+	box-sizing: border-box;
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_3_3_1 {
+	box-sizing: border-box;
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_3_3_2 {
+	box-sizing: border-box;
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_3_4_1 {
+	box-sizing: border-box;
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_3_4_2 {
+	box-sizing: border-box;
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_3_5_1 {
+	box-sizing: border-box;
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_3_5_2 {
+	box-sizing: border-box;
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_3_6_1 {
+	box-sizing: border-box;
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_3_6_2 {
+	box-sizing: border-box;
+    width: 50px;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_3_7_1 {
+	box-sizing: border-box;
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_3_7_2 {
+	box-sizing: border-box;
+    width: 65%;
+/*    text-align: left;*/
+    padding: 2px;
+}
+
+.cf_08_radio {
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    flex-direction: row;
+    padding: 0;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.cf_30_radio {
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    flex-direction: row;
+    padding: 0;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.cf_09_select {
+    font-size: .95em;
+}
+.cf_10_select {
+    font-size: .95em;
+}
+
+.cf_11_select {
+    font-size: .95em;
+}
+
+.cf_12_select {
+    font-size: .95em;
+}
+
+.cf_13_select {
+    font-size: .95em;
+}
+
+.cf_14_select {
+    font-size: .95em;
+}
+
+.cf_15_select {
+    font-size: .95em;
+}
+
+.cf_31_select {
+    font-size: .95em;
+}
+
+.cf_32_select {
+    font-size: .95em;
+}
+
+.cf_33_select {
+    font-size: .95em;
+}
+
+.cf_34_select {
+    font-size: .95em;
+}
+
+.cf_35_select {
+    font-size: .95em;
+}
+
+.cf_36_select {
+    font-size: .95em;
+}
+
+.cf_37_select {
+    font-size: .95em;
+}
+
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+*/
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_4_1 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_4_2_1 {
+	box-sizing: border-box;
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_4_2_2 {
+	box-sizing: border-box;
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_4_3_1 {
+	box-sizing: border-box;
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_4_3_2 {
+	box-sizing: border-box;
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_4_4_1 {
+	box-sizing: border-box;
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_4_4_2 {
+	box-sizing: border-box;
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_4_5_1 {
+	box-sizing: border-box;
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_4_5_2 {
+	box-sizing: border-box;
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_4_6_1 {
+	box-sizing: border-box;
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_4_6_2 {
+	box-sizing: border-box;
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_4_7_1 {
+	box-sizing: border-box;
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_4_7_2 {
+	box-sizing: border-box;
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_4_8_1 {
+	box-sizing: border-box;
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_4_8_2 {
+	box-sizing: border-box;
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+}
+
+
+
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+*/
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_5_1 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_5_2_1 {
+	box-sizing: border-box;
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_5_2_2 {
+	box-sizing: border-box;
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_5_3_1 {
+	box-sizing: border-box;
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_5_3_2 {
+	box-sizing: border-box;
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_5_4_1 {
+	box-sizing: border-box;
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_5_4_2 {
+	box-sizing: border-box;
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_5_5_1 {
+	box-sizing: border-box;
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_5_5_2 {
+	box-sizing: border-box;
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_5_6_1 {
+	box-sizing: border-box;
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_5_6_2 {
+	box-sizing: border-box;
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_5_7_1 {
+	box-sizing: border-box;
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_5_7_2 {
+	box-sizing: border-box;
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_5_8_1 {
+	box-sizing: border-box;
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_5_8_2 {
+	box-sizing: border-box;
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+*/
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_6_1 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_6_2_1 {
+	box-sizing: border-box;
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_6_2_2 {
+	box-sizing: border-box;
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_6_3_1 {
+	box-sizing: border-box;
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_6_3_2 {
+	box-sizing: border-box;
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_6_4_1 {
+	box-sizing: border-box;
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_6_4_2 {
+	box-sizing: border-box;
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_6_5_1 {
+	box-sizing: border-box;
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_6_5_2 {
+	box-sizing: border-box;
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_6_6_1 {
+	box-sizing: border-box;
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_6_6_2 {
+	box-sizing: border-box;
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_6_7_1 {
+	box-sizing: border-box;
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_6_7_2 {
+	box-sizing: border-box;
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_6_8_1 {
+	box-sizing: border-box;
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_6_8_2 {
+	box-sizing: border-box;
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_6_9_1 {
+	box-sizing: border-box;
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_6_9_2 {
+	box-sizing: border-box;
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+*/
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_7_1 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_7_2_1 {
+	box-sizing: border-box;
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_7_2_2 {
+	box-sizing: border-box;
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_7_3_1 {
+	box-sizing: border-box;
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_7_3_2 {
+	box-sizing: border-box;
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_7_4_1 {
+	box-sizing: border-box;
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_7_4_2 {
+	box-sizing: border-box;
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+*/
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_8_1 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_8_2_1 {
+	box-sizing: border-box;
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_8_2_2 {
+	box-sizing: border-box;
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_8_3_1 {
+	box-sizing: border-box;
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_8_3_2 {
+	box-sizing: border-box;
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_8_4_1 {
+	box-sizing: border-box;
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_8_4_2 {
+	box-sizing: border-box;
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_8_5_1 {
+	box-sizing: border-box;
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_8_5_2 {
+	box-sizing: border-box;
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_9_1 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_9_2 {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: 1.1em;
+}
+
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+*/
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_1 {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 10000px;
+    border-radius: 0px;
+/*    border: solid 1px green; */
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_2_CL_1 {
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    margin: 3px;
+    font-size: .95em;
+    font-weight: normal;
+    width: 100%;
+    max-width: 10000px;
+    border-radius: 0px;
+/*    border: solid 1px green; */
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_2_1 {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    font-size: .95em;
+    font-weight: normal;
+    width: auto;
+    border-radius: 0px;
+/*    border: solid 1px green; */
+    background-color: rgba(0, 0, 0, 0);
+    padding: 4px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_2_1_1 {
+    box-sizing: border-box;
+    border-radius: 0px;
+/*    border: solid 1px green; */
+    margin: 2px;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_2_1_2 {
+    box-sizing: border-box;
+    border-radius: 0px;
+/*    border: solid 1px green; */
+    margin: 2px;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_2_2 {
+    box-sizing: border-box;
+    width: auto;
+    max-width: 10000px;
+    border-radius: 0px;
+/*    border: solid 1px green; */
+    background-color: rgba(0, 0, 0, 0);
+    padding: 4px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_X_X_1_4_2_2 > * {
+    padding: 10px;
+}
+
+
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+
+
+input {
+    width: 100%;
+    font-size: .8em;
+}
+
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* VENTANA MODAL
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.modal_oculto {
+
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 2150px;
+    background-color: rgba(225, 201, 196, .5);
+    top: 0px;
+    right: 0px;
+
+}
+
+.modal_activo {
+
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2150px;
+    background-color: rgba(225, 201, 196, .5);
+    top: 0px;
+    right: 0px;
+
+}
+
+#ID_SDHYBC_MODAL_OPCION_BUTTON {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#ID_OK_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#ID_SI_AGREGA_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#ID_NO_AGREGA_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#ID_SI_REESTABLECE_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#ID_NO_REESTABLECE_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#ID_SI_LIMPIA_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#ID_NO_LIMPIA_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+
+#ID_SI_ACTUALIZA_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#ID_NO_ACTUALIZA_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* DISEÑOS FINOS */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+#ID_TRABAJO_CABEZA_TITULO {
+    font-size: 1.2em;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA {
+    font-weight: bold;
+}
+
+#ID_GRADILLA_FAMILIARES_TITULOGRADILLA {
+    font-size: 1.5em;
+}
+
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* BREAK 545 */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+@media (min-width: 545px) {
+    #ID_TRABAJO_CABEZA_MAQUETA {
+        grid-template: 
+            "ID_TRABAJO_CABEZA_TITULO" auto
+            "ID_TRABAJO_CABEZA_SUBTITULO" auto /
+            100%;
+    }
+    #ID_TRABAJO_CABEZA > * {
+        text-align: right;
+    }
+    .radio_group_option {
+        display: block;
+    }
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* BREAK 720 */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+@media (min-width: 720px) {
+    #IDXX_2 {
+        grid-template: 
+            "IDXX_2_1 IDXX_2_2" auto /
+            30% 70%;
+    }
+}
+@media (min-width: 820px) {
+    #IDXX_2 {
+        grid-template: 
+            "IDXX_2_1 IDXX_2_2" auto /
+            20 80%;
+    }
+}
+@media (min-width: 950px) {
+    #IDXX_2 {
+        grid-template: 
+            "IDXX_2_1 IDXX_2_2" auto /
+            15 85%;
+    }
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* ELEMENTO OCULTO
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.elemento_oculto {
+
+    position: absolute;
+    display: none;
+
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* NUEVO PROYECTO
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+#ID_3_2 {
+	box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    flex-direction: row;
+    padding: 3px;
+    font-weight: normal;
+    font-size: .75em;
+}
+
+#ID_3_2_1 {
+	box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    flex-direction: row;
+    padding: 3px;
+    margin: 3px;
+}
+
+#ID_3_2_1 > * {
+	box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    flex-direction: row;
+    padding: 3px;
+    margin: 3px;
+}
+
+#ID_3_2_2 {
+	box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    flex-direction: row;
+    padding: 3px;
+    margin: 3px;
+}
+
+#ID_3_2_2 > * {
+	box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    flex-direction: row;
+    padding: 3px;
+    margin: 3px;
+}
+
+#IDX_1 {
+	box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    flex-direction: row;
+    padding: 3px;
+    margin: 3px;
+}
+
+#IDX_1 > * {
+	box-sizing: border-box;
+    width: 45%;
+    min-width: 275px;
+    max-width: 600px;
+    height: auto;
+    background-color: rgba(167, 166, 166);
+    border-radius: 4px;
+    font-size: .9em;
+    color: black;
+    font-weight: bolder;
+    margin: 5px;
+    text-align: center;
+    padding: 2px;
+}
+
+.area_paneles_x_sub_sub {
+    width: 100%;
+    text-align: center;
+    font-size: .80em;
+	box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 3px;
+    margin: 3px;
+}
+
+#IDX_1_1_2_1 {
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+#IDX_1_1_2_2 {
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+    font-weight: normal;
+}
+#IDX_1_1_3_1 {
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+#IDX_1_1_3_2 {
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+    font-weight: normal;
+}
+#IDX_1_1_4_1 {
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+#IDX_1_1_4_2 {
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+    font-weight: normal;
+}
+#IDX_1_2_2 {
+    width: 100%;
+    text-align: left;
+    padding: 2px;
+    font-weight: normal;
+}
+
+#ID_GRADILLA {
+    font-size: .60em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#IDXX_3_2 {
+	box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    flex-direction: row;
+    padding: 3px;
+    font-weight: normal;
+    font-size: .75em;
+}
+
+#IDXX_3_2_1 {
+	box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    flex-direction: row;
+    padding: 3px;
+    margin: 3px;
+}
+
+#IDXX_3_2_1 > * {
+	box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    flex-direction: row;
+    padding: 3px;
+    margin: 3px;
+}
+
+#IDXX_3_2_2 {
+	box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    flex-direction: row;
+    padding: 3px;
+    margin: 3px;
+}
+
+#IDXX_3_2_2 > * {
+	box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    flex-direction: row;
+    padding: 3px;
+    margin: 3px;
+}
+
+#IDXXX_1 {
+	box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    flex-direction: row;
+    padding: 3px;
+    margin: 3px;
+}
+
+#IDXXX_1 > * {
+	box-sizing: border-box;
+    width: 45%;
+    min-width: 275px;
+    max-width: 600px;
+    height: auto;
+    background-color: rgba(167, 166, 166);
+    border-radius: 4px;
+    font-size: .9em;
+    color: black;
+    font-weight: bolder;
+    margin: 5px;
+    text-align: center;
+    padding: 2px;
+}
+
+
+#IDXXX_1_1_2_1 {
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+#IDXXX_1_1_2_2 {
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+    font-weight: normal;
+}
+#IDXXX_1_1_3_1 {
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+#IDXXX_1_1_3_2 {
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+    font-weight: normal;
+}
+#IDXXX_1_1_4_1 {
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+#IDXXX_1_1_4_2 {
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+    font-weight: normal;
+}
+#IDXXX_1_1_5_1 {
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+#IDXXX_1_1_5_2 {
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+    font-weight: normal;
+}
+#IDXXX_1_1_6_1 {
+    width: 35%;
+    text-align: right;
+    padding: 2px;
+}
+#IDXXX_1_1_6_2 {
+    width: 65%;
+    text-align: left;
+    padding: 2px;
+    font-weight: normal;
+}
+
+#ID_DATO_APOYOS_6_5 {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 2px;
+    text-align: center;
+    
+}
+
+#ID_DATO_APOYOS_6_5_TEXTAREA {
+    width: 100%;
+}
+
+#ID_DATO_APOYOS_6_5_INPUT_TEXT {
+    width: 100%;
+}
+
+#ID_DATO_MATERIALES_3_2 {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 2px;
+    text-align: center;
+    
+}
+
+#ID_DATO_MATERIALES_3_2_TEXTAREA {
+    width: 100%;
+}
+
+#ID_DATO_MATERIALES_3_2_INPUT_TEXT {
+    width: 100%;
+}
+
+#ID_DATO_APOYOS_4_3 {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 2px;
+    text-align: center;
+    
+}
+
+#ID_DATO_APOYOS_4_3_INPUT_TEXT {
+    width: 100%;
+}
+
+#ID_DATO_DETALLES_3_2_INPUT_NUM {
+    width: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+#IDXXX_1_2_2 {
+    width: 100%;
+    text-align: left;
+    padding: 2px;
+    font-weight: normal;
+}
+
+#IDXXX_2_2 {
+	box-sizing: border-box;
+    width: 100%;
+    font-size: .8em;
+}
+
+#IDXXX_2_4 {
+	box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    flex-direction: row;
+    padding: 3px;
+    font-weight: normal;
+}
+
+#IDXXX_2_4_1 {
+	box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    flex-direction: row;
+    padding: 3px;
+    margin: 3px;
+}
+
+#IDXXX_2_4_1 > * {
+	box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    flex-direction: row;
+    padding: 3px;
+    margin: 3px;
+}
+
+#IDXXX_2_4_2 {
+	box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    flex-direction: row;
+    padding: 3px;
+    margin: 3px;
+}
+
+#IDXXX_2_4_2 > * {
+	box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    flex-direction: row;
+    padding: 3px;
+    margin: 3px;
+}
+
+/*////////////////////////////////////////////////////////////////////*/
+
+#IDXXXX_1 {
+	box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    flex-direction: row;
+    padding: 3px;
+    margin: 3px;
+}
+
+#IDXXXX_1 > * {
+	box-sizing: border-box;
+    width: 45%;
+    min-width: 275px;
+    max-width: 600px;
+    height: auto;
+    background-color: rgba(167, 166, 166);
+    border-radius: 4px;
+    font-size: .9em;
+    color: black;
+    font-weight: bolder;
+    margin: 5px;
+    text-align: center;
+    padding: 2px;
+}
+
+
+#IDXXXX_1_1_2_1 {
+    width: 25%;
+    text-align: right;
+    padding: 2px;
+}
+#IDXXXX_1_1_2_2 {
+    width: 75%;
+    text-align: left;
+    padding: 2px;
+    font-weight: normal;
+}
+#IDXXXX_1_1_3_1 {
+    width: 25%;
+    text-align: right;
+    padding: 2px;
+}
+#IDXXXX_1_1_3_2 {
+    width: 75%;
+    text-align: left;
+    padding: 2px;
+    font-weight: normal;
+}
+#IDXXXX_1_1_4_1 {
+    width: 25%;
+    text-align: right;
+    padding: 2px;
+}
+#IDXXXX_1_1_4_2 {
+    width: 75%;
+    text-align: left;
+    padding: 2px;
+    font-weight: normal;
+}
+#IDXXXX_1_2_2 {
+    width: 100%;
+    text-align: left;
+    padding: 2px;
+    font-weight: normal;
+}
+
+#IDXXXX_2_2 {
+    width: 100%;
+    font-size: .8em;
+}
+
+/*LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL*/
+
+#IDXXXX_2_4 {
+	box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    flex-direction: row;
+    padding: 3px;
+    font-weight: normal;
+}
+
+#IDXXXX_2_4_1 {
+	box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    flex-direction: row;
+    padding: 3px;
+    margin: 3px;
+}
+
+#IDXXXX_2_4_1 > * {
+	box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    flex-direction: row;
+    padding: 3px;
+    margin: 3px;
+}
+
+#IDXXXX_2_4_2 {
+	box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    flex-direction: row;
+    padding: 3px;
+    margin: 3px;
+}
+
+#IDXXXX_2_4_2 > * {
+	box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    flex-direction: row;
+    padding: 3px;
+    margin: 3px;
+}
+
+/*////////////////////////////////////////////////////////////////////*/
+
+/*////////////////////////////////////////////////////////////////////*/
+
+#IDXXXXX_1 {
+	box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    flex-direction: row;
+    padding: 3px;
+    margin: 3px;
+}
+
+#IDXXXXX_1 > * {
+	box-sizing: border-box;
+    width: 45%;
+    min-width: 275px;
+    max-width: 600px;
+    height: auto;
+    background-color: rgba(167, 166, 166);
+    border-radius: 4px;
+    font-size: .9em;
+    color: black;
+    font-weight: bolder;
+    margin: 5px;
+    text-align: center;
+    padding: 2px;
+}
+
+
+#IDXXXXX_1_1_2_1 {
+    width: 25%;
+    text-align: right;
+    padding: 2px;
+}
+#IDXXXXX_1_1_2_2 {
+    width: 75%;
+    text-align: left;
+    padding: 2px;
+    font-weight: normal;
+}
+#IDXXXXX_1_1_3_1 {
+    width: 25%;
+    text-align: right;
+    padding: 2px;
+}
+#IDXXXXX_1_1_3_2 {
+    width: 75%;
+    text-align: left;
+    padding: 2px;
+    font-weight: normal;
+}
+#IDXXXXX_1_1_4_1 {
+    width: 25%;
+    text-align: right;
+    padding: 2px;
+}
+#IDXXXXX_1_1_4_2 {
+    width: 75%;
+    text-align: left;
+    padding: 2px;
+    font-weight: normal;
+}
+#IDXXXXX_1_2_2 {
+    width: 100%;
+    text-align: left;
+    padding: 2px;
+    font-weight: normal;
+}
+
+#ID_DATO_PROGRAMA_6_5 {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 75px;
+    padding: 2px;
+    text-align: center;
+    
+}
+
+#ID_DATO_PROGRAMA_6_5_TEXTAREA {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#IDXX_2_1_6 {
+    box-sizing: border-box;
+    display: block;
+    padding: 3px;
+}
+
+#IDXX_2_1_6_1 {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 30%;
+    padding: 1px;
+    text-align: center;
+}
+
+#IDXX_2_1_6_2 {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 40%;
+    padding: 1px;
+}
+
+#IDXX_2_1_6_2 {
+    box-sizing: border-box;
+    display: inline-block;
+    width: auto;
+    padding: 2px;
+}
+
+#IDXX_2_1_6_1_2 {
+}
+
+#IDXX_2_1_5 {
+    box-sizing: border-box;
+    display: block;
+    padding: 3px;
+}
+
+#IDXX_2_1_5_1 {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 30%;
+    padding: 1px;
+}
+
+#IDXX_2_1_5_1_2 {
+}
+
+
+#IDXX_2_1_5_2 {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 40%;
+    padding: 1px;
+}
+
+#IDXX_2_1_5_2 {
+    box-sizing: border-box;
+    display: inline-block;
+    width: auto;
+    padding: 2px;
+}
+
+#ID_GRADILLA_APOYOS_CUERPOGRADILLA {
+    overflow: auto;
+    height: 175px;
+    color: gray;
+    background-color: white; 
+}
+
+
+
+
+
+

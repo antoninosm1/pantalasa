@@ -1,0 +1,164 @@
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* AREA DE TRABAJO
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.area_de_trabajo {
+    text-align: center;
+    padding: 1px;
+}
+
+#ID_PUNTOS_CAPTURA_01 {
+	grid-area: ID_PUNTOS_CAPTURA_01;
+}
+
+#ID_PUNTOS_CAPTURA_02 {
+	background-color: white;
+	grid-area: ID_PUNTOS_CAPTURA_02;
+}
+
+#ID_PUNTOS_CAPTURA_02 {
+	background-color: white;
+	grid-area: ID_PUNTOS_CAPTURA_02;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+#ID_PUNTOS_CAPTURA_03 {
+	grid-area: ID_PUNTOS_CAPTURA_03;
+}
+
+#ID_PUNTOS_CAPTURA {
+	display: grid;
+    height: 100%;
+	grid-template: 
+		"ID_PUNTOS_CAPTURA_01" 4%  
+		"ID_PUNTOS_CAPTURA_02" auto  
+		"ID_PUNTOS_CAPTURA_03" 20% /  
+        100%;
+}
+
+#ID_PUNTOS_CAPTURA > * {
+	border: solid 1px rgba(189, 187, 179, .5);
+}
+#ID_PUNTOS_CAPTURA_02 > * {
+	border: solid 1px rgba(189, 187, 179, .5);
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* DISEÑO DE CLASES
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.area_captura {
+	box-sizing: border-box;
+	padding: 2px;
+	border: 1px solid orangered;
+	text-align: center;
+}
+
+.area_captura_central {
+	box-sizing: border-box;
+	padding: 2px;
+	border: 1px solid orangered;
+}
+
+.renglon_captura {
+	box-sizing: border-box;
+	padding: 2px;
+	border: 1px solid greenyellow;
+}
+
+.etiqueta_captura {
+	box-sizing: border-box;
+	margin: 2px;
+	padding: 2px;
+	border: 1px solid black;
+	width: 100%;
+	text-align: left;
+}
+
+.input_captura {
+	box-sizing: border-box;
+	margin: 2px;
+	padding: 2px;
+	border: 1px solid gray;
+	width: 100%;
+	text-align: left;
+}
+
+
+
+
+
+
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* BREAK 545 */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+@media (min-width: 545px) {
+
+#ID_PUNTOS_CAPTURA {
+	display: grid;
+    height: 100%;
+	grid-template: 
+		"ID_PUNTOS_CAPTURA_01" 4%  
+		"ID_PUNTOS_CAPTURA_02" auto  
+		"ID_PUNTOS_CAPTURA_03" 25% /  
+        100%;
+}
+
+    
+}
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* BREAK 920 */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+@media (min-width: 920px) {
+
+    #ID_PUNTOS_CAPTURA {
+	    display: grid;
+	    grid-template: 
+		    "ID_PUNTOS_CAPTURA_01" 4%  
+		    "ID_PUNTOS_CAPTURA_02" auto  
+		    "ID_PUNTOS_CAPTURA_03" 20% /  
+            100%;
+    }
+
+    
+}
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* BREAK 1150 */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+@media (min-width: 1150px) {
+
+}
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* BREAK 1300 */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+@media (min-width: 1300px) {
+
+}

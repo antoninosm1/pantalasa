@@ -1,0 +1,310 @@
+#ID_GEN_CUERPO_CENTRO {
+    font-size: .9em;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* CABEZA AREA TRABAJO CABEZA */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+#ID_TRABAJO_CABEZA_TITULO {
+	box-sizing: border-box;
+	grid-area: ID_TRABAJO_CABEZA_TITULO;
+    color: black;
+    text-align: center;
+    font-size: .9em;
+    padding: 1px;
+}
+#ID_TRABAJO_CABEZA_MUNICIPIOS {
+	box-sizing: border-box;
+	grid-area: ID_TRABAJO_CABEZA_MUNICIPIOS;
+    text-align: center;
+    font-size: .9em;
+    padding: 1px;
+}
+#ID_TRABAJO_CABEZA_LOCALIDADES {
+	box-sizing: border-box;
+	grid-area: ID_TRABAJO_CABEZA_LOCALIDADES;
+    text-align: center;
+    font-size: .9em;
+    padding: 1px;
+}
+#ID_TRABAJO_CABEZA_RESUMEN {
+    box-sizing: border-box;
+	grid-area: ID_TRABAJO_CABEZA_RESUMEN;
+	box-sizing: border-box;
+    width: auto;
+    height: auto;
+    text-align: center;
+    background-color: rgba(214, 159, 147);
+    border-radius: 4px;
+    font-size: .9em;
+    color: black;
+    margin: 5px;
+    padding: 2px;
+}
+#ID_TRABAJO_CABEZA_MAQUETA {
+	box-sizing: border-box;
+    width: 100%;
+    border-radius: .5em;
+    background-color: rgba(225, 201, 196);
+    color: rgba(88, 54, 94);   
+	display: grid;
+    text-align: center;
+    padding: 1px;
+    text-align: center;
+    font-size: .9em;
+	grid-template: 
+		"ID_TRABAJO_CABEZA_TITULO" auto
+		"ID_TRABAJO_CABEZA_MUNICIPIOS" auto
+        "ID_TRABAJO_CABEZA_LOCALIDADES" auto
+        "ID_TRABAJO_CABEZA_RESUMEN" auto /
+		100%;
+}
+
+#ID_TRABAJO_CABEZA > * {
+    padding: 1px;
+    font-size: .9em;
+}
+#ID_TRABAJO_CABEZA_RESUMEN > * {
+    padding: 1px;
+    font-size: .9em;
+}
+
+#ID_TRABAJO_CABEZA_MAQUETA > * {
+}
+
+
+
+#ID_RESUMEN_PANEL {
+	box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+}
+
+.area_panel_xx_class_sub {
+	box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    padding: 2px;
+}
+.area_panel_xx_class_sub_sub {
+	box-sizing: border-box;
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+    font-weight: bold;
+    padding: 1px;
+}
+.area_panel_xx_class_sub_sub_x {
+	box-sizing: border-box;
+    display: inline-block;
+    width: 50%;
+    font-weight: bold;
+    text-align: left;
+    padding: 1px;
+}
+#ID_RESUMEN_PANEL_1_1 {
+	box-sizing: border-box;
+    font-weight: bold;
+    text-align: center;
+    padding: 1px;
+}
+
+
+
+.select_lista_desplegable {
+    width: 200px;
+    font-size: .9em;
+}
+.select_lista_desplegable_label {
+    font-weight: bold;
+    padding: 1px;
+}
+.radio_group_option {
+    padding: 1px;
+    margin: 1px;
+    display: inline;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* CABEZA AREA TRABAJO ESCRITORIO */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA {
+	box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.area_paneles_class {
+	box-sizing: border-box;
+    width: 220px;
+    height: auto;
+    background-color: rgba(167, 166, 166);
+    border-radius: 4px;
+    font-size: .9em;
+    color: black;
+    font-weight: bolder;
+    margin: 5px;
+    text-align: center;
+    padding: 2px;
+}
+
+#ID_TRABAJO_ESCRITORIO_MAQUETA_1 {
+    background-color: transparent;
+    font-size: .9em;
+    font-weight: bold;
+	box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#ID_TRABAJO_ESCRITORIO_MAQUETA_1_1 {
+    width: 100%;
+}
+#ID_TRABAJO_ESCRITORIO_MAQUETA_1 > * {
+    background-color: transparent;
+    font-size: .9em;
+}
+
+
+.area_paneles_class_sub {
+	box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-radius: 1px;
+    font-size: .9em;
+    text-align: center;
+    padding: 2px;
+}
+.area_paneles_class_sub_sub {
+	box-sizing: border-box;
+    display: inline-block;
+    width: 50%;
+    border-radius: 1px;
+    font-size: .9em;
+    font-weight: normal;
+    text-align: right;
+    padding: 2px;
+}
+.area_paneles_class_sub_sub_x {
+	box-sizing: border-box;
+    display: inline-block;
+    width: 50%;
+    border-radius: 1px;
+    font-size: .9em;
+    font-weight: bold;
+    text-align: left;
+    padding: 2px;
+}
+
+.dato_opcion {
+    color: rgba(90, 62, 184);
+    cursor: pointer;
+}
+.dato_opcion:hover {
+    color: white;
+    font-size: 1.3em;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* VENTANA MODAL
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.modal_oculto {
+
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 2150px;
+    background-color: rgba(225, 201, 196, .5);
+    top: 0px;
+    right: 0px;
+
+}
+
+.modal_activo {
+
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2150px;
+    background-color: rgba(225, 201, 196, .5);
+    top: 0px;
+    right: 0px;
+
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* ELEMENTO OCULTO
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.elemento_oculto {
+
+    position: absolute;
+    display: none;
+
+}
+
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* BREAK 545 */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+@media (min-width: 545px) {
+    #ID_TRABAJO_CABEZA_MAQUETA {
+        grid-template: 
+            "ID_TRABAJO_CABEZA_TITULO ID_TRABAJO_CABEZA_TITULO" auto
+            "ID_TRABAJO_CABEZA_MUNICIPIOS ID_TRABAJO_CABEZA_RESUMEN" auto 
+            "ID_TRABAJO_CABEZA_LOCALIDADES ID_TRABAJO_CABEZA_RESUMEN" auto / 
+            50% 50%;
+    }
+    #ID_TRABAJO_CABEZA > * {
+        text-align: right;
+    }
+    #ID_TRABAJO_CABEZA_RESUMEN {
+        text-align: left;
+    }
+    .radio_group_option {
+        display: block;
+    }
+}
+@media (min-width: 720px) {
+    #ID_TRABAJO_CABEZA_MAQUETA {
+        grid-template: 
+            "ID_TRABAJO_CABEZA_TITULO ID_TRABAJO_CABEZA_TITULO" auto
+            "ID_TRABAJO_CABEZA_MUNICIPIOS ID_TRABAJO_CABEZA_RESUMEN" auto 
+            "ID_TRABAJO_CABEZA_LOCALIDADES ID_TRABAJO_CABEZA_RESUMEN" auto / 
+            50% 50%;
+    }
+    #ID_TRABAJO_CABEZA > * {
+        text-align: center;
+    }
+    .select_lista_desplegable {
+        width: 275px;
+    }
+}
+@media (min-width: 820px) {
+    .select_lista_desplegable {
+        width: 300px;
+    }
+}
+

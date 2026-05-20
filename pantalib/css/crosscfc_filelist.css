@@ -1,0 +1,86 @@
+.formulario_control_subir {
+
+    display: block;
+    width: 100%;
+    text-align: center;
+	box-sizing: border-box;
+
+}
+
+#ID_FORMULARIO_SUBE_BOTON {
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 8px;
+	box-sizing: border-box;
+}
+
+#ID_SUBE_FORMULARIO {
+}
+
+
+.contenedor_sube > * {
+	padding: .1em;
+}
+
+#ID_LINK_SUBE_FORMULARIO {
+}
+
+#ID_FORMULARIO_SUBE_CUERPO {
+
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: 100%; 
+    box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+
+.filelist_maqueta {
+    display: block;
+    padding: 0px; 
+	box-sizing: border-box;
+
+
+}
+.filelist_maqueta_area_butons {
+    display: none;
+    position: absolute;
+	box-sizing: border-box;
+}
+
+
+#ID_FILELIST_MAQUETA_BODY {
+    overflow: overlay;
+    max-height: 109px;
+	box-sizing: border-box;
+    scrollbar-width: none;
+}
+
+.filelist_maqueta_inputfile_desc {
+	width: 75%;
+    display: inline-block;
+    text-align: right;
+    padding: 4px;
+	box-sizing: border-box;
+}
+.filelist_maqueta_inputfile_remove {
+	width: 25%;
+    display: inline-block;
+    text-align: left;
+    padding: 2px;
+	box-sizing: border-box;
+}
+.filelist_maqueta_inputfile_remove_buton {
+    background-color: white; 
+    color: red;
+    display: inline-block;
+    text-decoration: none;
+    padding: 2px 2px;
+    margin: .5px;
+    text-align: center; 
+    box-shadow: 0px 1.5px 0px #373c3c;
+	box-sizing: border-box;
+}

@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.C5integrante"
+    android:background="@color/purple_200">
+
+    <ScrollView
+        android:id="@+id/svIntegrante"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="INTEGRANTE"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/purple_050"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="DATOS DE IDENTIDAD"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/tvApellido1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Primer Apellido"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <EditText
+                    android:id="@+id/etPrimerApellido"
+                    android:layout_width="match_parent"
+                    android:layout_height="50sp"
+                    android:layout_marginBottom="7dp"
+                    android:background="#E2C1E6"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/tvApellido2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Segundo Apellido"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <EditText
+                    android:id="@+id/etSegundoApellido"
+                    android:layout_width="match_parent"
+                    android:layout_height="50sp"
+                    android:layout_marginBottom="7dp"
+                    android:background="#E2C1E6"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/tvNombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nombres"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <EditText
+                    android:id="@+id/etNombres"
+                    android:layout_width="match_parent"
+                    android:layout_height="50sp"
+                    android:layout_marginBottom="7dp"
+                    android:background="#E2C1E6"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/tvFechaNacimiento"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fecha de Nacimiento"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <Button
+                    android:id="@+id/buttonFechaDeNacimiento"
+                    android:layout_width="match_parent"
+                    android:layout_height="50sp"
+                    android:layout_marginBottom="7dp"
+                    android:backgroundTint="#E2C1E6"
+                    android:focusableInTouchMode="true"
+                    android:text="ELEGIR FECHA"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/tvEdad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Edad"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <EditText
+                    android:id="@+id/etEdad"
+                    android:layout_width="match_parent"
+                    android:layout_height="50sp"
+                    android:layout_marginBottom="7dp"
+                    android:background="#E2C1E6"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/tvGenero"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Genero"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <RadioGroup
+                    android:id="@+id/rgGenero"
+                    android:layout_width="match_parent"
+                    android:layout_height="50sp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rbMujer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="0.5"
+                        android:background="@color/purple_010"
+                        android:padding="5dp"
+                        android:text="Mujer"
+                        android:textColor="@color/black"
+                        android:textSize="22sp" />
+
+                    <RadioButton
+                        android:id="@+id/rbHombre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="0.5"
+                        android:background="@color/purple_010"
+                        android:padding="5dp"
+                        android:text="Hombre"
+                        android:textColor="@color/black"
+                        android:textSize="22sp" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/purple_050"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="DATOS GENERALES"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvEstado"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Estado en Donde Nace"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <Spinner
+                    android:id="@+id/spinnerEstados"
+                    android:layout_width="match_parent"
+                    android:layout_height="50sp"
+                    android:layout_marginBottom="7dp"
+                    android:background="#E2C1E6"
+                    android:entries="@array/estados"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:textAlignment="center"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/tvLengua"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lengua Materna"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <Spinner
+                    android:id="@+id/spinnerLenguaMaterna"
+                    android:layout_width="match_parent"
+                    android:layout_height="50sp"
+                    android:layout_marginBottom="7dp"
+                    android:background="#E2C1E6"
+                    android:entries="@array/lenguasMaternas"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:textAlignment="center"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/tvEstadoCivil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Estado Civil"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <Spinner
+                    android:id="@+id/spinnerEstadoCivil"
+                    android:layout_width="match_parent"
+                    android:layout_height="50sp"
+                    android:layout_marginBottom="7dp"
+                    android:background="#E2C1E6"
+                    android:entries="@array/estadosCiviles"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:textAlignment="center"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/tvParentesco"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Parentesco"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <Spinner
+                    android:id="@+id/spinnerParentesco"
+                    android:layout_width="match_parent"
+                    android:layout_height="50sp"
+                    android:layout_marginBottom="7dp"
+                    android:background="#E2C1E6"
+                    android:entries="@array/parentescos"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:textAlignment="center"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/tvEscolaridad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Escolaridad"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <Spinner
+                    android:id="@+id/spinnerEscolaridad"
+                    android:layout_width="match_parent"
+                    android:layout_height="50sp"
+                    android:layout_marginBottom="7dp"
+                    android:background="#E2C1E6"
+                    android:entries="@array/escolaridades"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:textAlignment="center"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/tvOcupacion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ocupación"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <Spinner
+                    android:id="@+id/spinnerOcupacion"
+                    android:layout_width="match_parent"
+                    android:layout_height="50sp"
+                    android:layout_marginBottom="7dp"
+                    android:background="#E2C1E6"
+                    android:entries="@array/ocupaciones"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:textAlignment="center"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/tvIngresos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ingresos"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <Spinner
+                    android:id="@+id/spinnerIngresos"
+                    android:layout_width="match_parent"
+                    android:layout_height="50sp"
+                    android:layout_marginBottom="7dp"
+                    android:background="#E2C1E6"
+                    android:entries="@array/ingresos"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:textAlignment="center"
+                    android:textSize="22sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/purple_050"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PADECIMIENTOS"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/chPaPap"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/purple_010"
+                    android:text="Papanicolaou"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <CheckBox
+                    android:id="@+id/chPaHip"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/purple_010"
+                    android:text="Hipertensión"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <CheckBox
+                    android:id="@+id/chPaDia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/purple_010"
+                    android:text="Diabetes"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <CheckBox
+                    android:id="@+id/chPaTub"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/purple_010"
+                    android:text="Tuberculosis"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <CheckBox
+                    android:id="@+id/chPaAlc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/purple_010"
+                    android:text="Alcoholismo"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <CheckBox
+                    android:id="@+id/chPaTab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/purple_010"
+                    android:text="Tabaquismo"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <CheckBox
+                    android:id="@+id/chPaCan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/purple_010"
+                    android:text="Cancer"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/purple_050"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PLANIFICACIÓN FAMILIAR"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/chPlDIU"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/purple_010"
+                    android:text="DIU"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <CheckBox
+                    android:id="@+id/chPlOra"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/purple_010"
+                    android:text="Orales"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <CheckBox
+                    android:id="@+id/chPlPre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/purple_010"
+                    android:text="Preservativos"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <CheckBox
+                    android:id="@+id/chPlInM"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/purple_010"
+                    android:text="Inyección Mensual"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <CheckBox
+                    android:id="@+id/chPlInB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/purple_010"
+                    android:text="Inyección Bimensual"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <CheckBox
+                    android:id="@+id/chPlSal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/purple_010"
+                    android:text="Salpingo / OTB"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <CheckBox
+                    android:id="@+id/chPlImp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/purple_010"
+                    android:text="Implantes"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/tvEmbarazo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="¿Embarazada?"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <RadioGroup
+                    android:id="@+id/rgEmbarazo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rbEmbaNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="0.5"
+                        android:background="@color/purple_010"
+                        android:padding="5dp"
+                        android:text="No"
+                        android:textColor="@color/black"
+                        android:textSize="22sp" />
+
+                    <RadioButton
+                        android:id="@+id/rbEmbaSi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="0.5"
+                        android:background="@color/purple_010"
+                        android:padding="5dp"
+                        android:text="Sí"
+                        android:textColor="@color/black"
+                        android:textSize="22sp" />
+
+                    <RadioButton
+                        android:id="@+id/rbEmbaEn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="0.5"
+                        android:background="@color/purple_010"
+                        android:padding="5dp"
+                        android:text="En Control"
+                        android:textColor="@color/black"
+                        android:textSize="22sp" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/purple_050"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="HIGIENE"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvBacaro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Baño y Cambio de Ropa"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <Spinner
+                    android:id="@+id/spinnerBaCaRo"
+                    android:layout_width="match_parent"
+                    android:layout_height="50sp"
+                    android:layout_marginBottom="7dp"
+                    android:background="#E2C1E6"
+                    android:entries="@array/frecuencias"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:textAlignment="center"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/tvLadi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lavado de Dientes"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <Spinner
+                    android:id="@+id/spinnerLaDi"
+                    android:layout_width="match_parent"
+                    android:layout_height="50sp"
+                    android:layout_marginBottom="7dp"
+                    android:background="#E2C1E6"
+                    android:entries="@array/frecuencias"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:textAlignment="center"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/tvLivi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Limpieza de Vivienda"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <Spinner
+                    android:id="@+id/spinnerLiVi"
+                    android:layout_width="match_parent"
+                    android:layout_height="50sp"
+                    android:layout_marginBottom="7dp"
+                    android:background="#E2C1E6"
+                    android:entries="@array/frecuencias"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:textAlignment="center"
+                    android:textSize="22sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/purple_050"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TOXICOMANÍAS"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/tvBeal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bebidas Alcoholicas"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <Spinner
+                    android:id="@+id/spinnerBeAl"
+                    android:layout_width="match_parent"
+                    android:layout_height="50sp"
+                    android:layout_marginBottom="7dp"
+                    android:background="#E2C1E6"
+                    android:entries="@array/frecuencias"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:textAlignment="center"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/tvTaba"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tabaco"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <Spinner
+                    android:id="@+id/spinnerTaba"
+                    android:layout_width="match_parent"
+                    android:layout_height="50sp"
+                    android:layout_marginBottom="7dp"
+                    android:background="#E2C1E6"
+                    android:entries="@array/frecuencias"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:textAlignment="center"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/tvMedi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Medicamentos"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <Spinner
+                    android:id="@+id/spinnerMedi"
+                    android:layout_width="match_parent"
+                    android:layout_height="50sp"
+                    android:layout_marginBottom="7dp"
+                    android:background="#E2C1E6"
+                    android:entries="@array/frecuencias"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:textAlignment="center"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/tvDrog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Drogas"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <Spinner
+                    android:id="@+id/spinnerDrog"
+                    android:layout_width="match_parent"
+                    android:layout_height="50sp"
+                    android:layout_marginBottom="7dp"
+                    android:background="#E2C1E6"
+                    android:entries="@array/frecuencias"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:textAlignment="center"
+                    android:textSize="22sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/purple_050"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <Button
+                    android:id="@+id/buttonAgregar"
+                    android:layout_width="match_parent"
+                    android:layout_height="50sp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="80dp"
+                    android:text="AGREGAR INTEGRANTE"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/buttonLimpiar"
+                    android:layout_width="match_parent"
+                    android:layout_height="50sp"
+                    android:layout_marginBottom="40dp"
+                    android:text="LIMPIAR CAMPOS"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

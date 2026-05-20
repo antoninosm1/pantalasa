@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">mudanzas</string>
+    <!-- Textos para accesibilidad -->
+
+    <!-- Textos generales -->
+    <string name="usuario_text">USUARIO: %s</string>
+    <string name="hint_municipio">Seleccione un municipio</string>
+
+    <!-- Mensajes de estado -->
+    <string name="no_data_available">No hay datos disponibles</string>
+    <string name="error_load_data">Error al cargar datos</string>
+    <string name="error_inicio">Error al iniciar la actividad</string>
+    <string name="datos_cargados">Datos cargados correctamente</string>
+    <string name="funcionalidad_desarrollo">Funcionalidad en desarrollo</string>
+
+    <!-- Accesibilidad -->
+    <string name="descripcion_combo_municipios">Selector de municipios. Selección actual: %1$s</string>
+    <string name="desc_boton_salir">Cierra completamente la aplicación</string>
+    <string name="desc_boton_municipio">Filtrar por municipio</string>
+    <string name="desc_boton_localidad">Filtrar por localidad</string>
+    <string name="desc_boton_sin_filtro">Mostrar todos sin filtros</string>
+
+    <!-- Botones -->
+    <string name="boton_municipio">MUNICIPIO</string>
+    <string name="boton_localidad">LOCALIDAD</string>
+    <string name="boton_sin_filtro">SIN FILTRO</string>
+
+    <string name="error_carga_datos">Error al cargar datos</string>
+
+</resources>

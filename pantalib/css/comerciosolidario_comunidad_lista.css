@@ -1,0 +1,213 @@
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* AREA DE TRABAJO
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.area_de_trabajo {
+    text-align: center;
+    padding: 1px;
+}
+
+#ID_COMUNIDAD_LISTA_01 {
+	grid-area: ID_COMUNIDAD_LISTA_01;
+}
+#ID_COMUNIDAD_LISTA_02 {
+	grid-area: ID_COMUNIDAD_LISTA_02;
+}
+#ID_COMUNIDAD_LISTA_03 {
+	grid-area: ID_COMUNIDAD_LISTA_03;
+}
+
+#ID_COMUNIDAD_LISTA {
+	display: grid;
+    height: 100%;
+	grid-template: 
+		"ID_COMUNIDAD_LISTA_01" 4%  
+		"ID_COMUNIDAD_LISTA_02" 28%  
+		"ID_COMUNIDAD_LISTA_03" auto /  
+        100%;
+}
+
+#ID_COMUNIDAD_LISTA > * {
+    border: 1px gray solid;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* AREA DE FILTROS
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+#ID_COMUNIDAD_LISTA_02_01 {
+	grid-area: ID_COMUNIDAD_LISTA_02_01;
+	box-sizing: border-box;
+    padding: 1px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#ID_COMUNIDAD_LISTA_02_02 {
+    grid-area: ID_COMUNIDAD_LISTA_02_02;
+	box-sizing: border-box;
+    padding: 1px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#ID_COMUNIDAD_LISTA_02_03 {
+	grid-area: ID_COMUNIDAD_LISTA_02_03;
+	box-sizing: border-box;
+    padding: 1px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#ID_COMUNIDAD_LISTA_02_04 {
+	grid-area: ID_COMUNIDAD_LISTA_02_04;
+	box-sizing: border-box;
+    padding: 1px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#ID_COMUNIDAD_LISTA_02_05 {
+	grid-area: ID_COMUNIDAD_LISTA_02_05;
+	box-sizing: border-box;
+    padding: 1px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#ID_COMUNIDAD_LISTA_02 {
+	display: grid;
+    height: 100%;
+	grid-template: 
+		"ID_COMUNIDAD_LISTA_02_01 ID_COMUNIDAD_LISTA_02_01 ID_COMUNIDAD_LISTA_02_01 ID_COMUNIDAD_LISTA_02_01" 15%  
+		"ID_COMUNIDAD_LISTA_02_02 ID_COMUNIDAD_LISTA_02_03 ID_COMUNIDAD_LISTA_02_04 ID_COMUNIDAD_LISTA_02_05" 85% / 
+        25% 25% 25% 25%;
+}
+
+#ID_COMUNIDAD_LISTA_02 > * {
+    border: 1px gray solid;
+}
+
+#ID_DATOS_OPTION_01 {
+    text-align: left;
+    padding: 2px;
+}
+
+#ID_DATOS_OPTION_02 {
+    text-align: left;
+    padding: 2px;
+}
+
+.radio_group_option {
+    padding: 2px;
+}
+
+.input_numero {
+    width: 45px;
+}
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* BREAK 545 */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+@media (min-width: 545px) {
+
+#ID_COMUNIDAD_LISTA {
+	display: grid;
+    height: 100%;
+	grid-template: 
+		"ID_COMUNIDAD_LISTA_01" 4%  
+		"ID_COMUNIDAD_LISTA_02" 30%  
+		"ID_COMUNIDAD_LISTA_03" auto /  
+        100%;
+}
+
+    
+}
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* BREAK 920 */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+@media (min-width: 920px) {
+
+    #ID_COMUNIDAD_LISTA {
+	    display: grid;
+	    grid-template: 
+		    "ID_COMUNIDAD_LISTA_01 ID_COMUNIDAD_LISTA_01" 4%  
+		    "ID_COMUNIDAD_LISTA_02 ID_COMUNIDAD_LISTA_03" auto  
+		    "ID_COMUNIDAD_LISTA_02 ID_COMUNIDAD_LISTA_03" auto /  
+            30% 70%;
+    }
+
+    #ID_COMUNIDAD_LISTA_02 {
+	    display: grid;
+        height: 100%;
+	    grid-template: 
+		    "ID_COMUNIDAD_LISTA_02_01" 5%
+            "ID_COMUNIDAD_LISTA_02_02" auto
+            "ID_COMUNIDAD_LISTA_02_03" auto
+            "ID_COMUNIDAD_LISTA_02_04" auto
+            "ID_COMUNIDAD_LISTA_02_05" auto / 
+            100%;
+    }
+    
+}
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* BREAK 1150 */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+@media (min-width: 1150px) {
+
+    #ID_COMUNIDAD_LISTA {
+	    display: grid;
+	    grid-template: 
+		    "ID_COMUNIDAD_LISTA_01 ID_COMUNIDAD_LISTA_01" 4%  
+		    "ID_COMUNIDAD_LISTA_02 ID_COMUNIDAD_LISTA_03" auto  
+		    "ID_COMUNIDAD_LISTA_02 ID_COMUNIDAD_LISTA_03" auto /  
+            20% 80%;
+    }
+    
+}
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* BREAK 1300 */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+@media (min-width: 1300px) {
+
+    #ID_COMUNIDAD_LISTA {
+	    display: grid;
+	    grid-template: 
+		    "ID_COMUNIDAD_LISTA_01 ID_COMUNIDAD_LISTA_01" 4%  
+		    "ID_COMUNIDAD_LISTA_02 ID_COMUNIDAD_LISTA_03" auto  
+		    "ID_COMUNIDAD_LISTA_02 ID_COMUNIDAD_LISTA_03" auto /  
+            16.65% 83.35%;
+    }
+    
+}

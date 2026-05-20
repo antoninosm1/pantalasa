@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- C:\xampp\htdocs\pantalasa\android_sdhybc\app\src\main\res\xml\backup_rules.xml -->
+<full-backup-content>
+    <exclude domain="sharedpref" path="androidx.work.util.preferences.xml"/>
+</full-backup-content>
+

@@ -1,0 +1,155 @@
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* VENTANA MODAL
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.modal_oculto {
+
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 2150px;
+    background-color: rgba(225, 201, 196, .5);
+    top: 0px;
+    right: 0px;
+
+}
+
+.modal_activo {
+
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2150px;
+    background-color: rgba(225, 201, 196, .5);
+    top: 0px;
+    right: 0px;
+
+}
+
+#ID_COMERCIOSOLIDARIO_MODAL_OPCION_BUTTON {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#ID_OK_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#ID_SI_AGREGA_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#ID_NO_AGREGA_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#ID_SI_REESTABLECE_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#ID_NO_REESTABLECE_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#ID_SI_LIMPIA_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#ID_NO_LIMPIA_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+
+#ID_SI_ACTUALIZA_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#ID_NO_ACTUALIZA_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+
+#ID_COMERCIOSOLIDARIO_MODAL_AVISO {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#ID_COMERCIOSOLIDARIO_MODAL_AVISO_X {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#ID_COMERCIOSOLIDARIO_MODAL_OPCION_AVISO {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+
+
+
+
+
+
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* VENTANA MODAL*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.ventana_modal {
+	box-sizing: border-box;
+    background-color: white;   
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    max-width: 280px;
+}
+
+.ventana_modal > * {
+}
+
+.ventana_modal::backdrop {
+    background-color: rgba(225, 201, 196, 0.3);   
+}

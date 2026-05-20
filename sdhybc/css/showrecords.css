@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+}
+
+.subhead {
+    display: block;
+    margin: auto;
+}
+
+.subhead input {
+    display: block;
+    margin: 7px;
+}
+
+.title{
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.buttons-downloads {
+    width: 170px;
+}
+
+table {
+    margin: 10px auto;
+}
+
+table, thead, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+td {
+    text-align: center;
+    white-space: nowrap;
+}
+
+thead {
+    font-weight: bold;
+}
+
+thead, tr:nth-child(odd){
+    background: #EEE;
+}

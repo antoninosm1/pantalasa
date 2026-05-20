@@ -1,0 +1,650 @@
+
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+/* GRADILLA MAQUETA GENERAL
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+
+
+
+
+
+#ID_TRABAJO_SIS_GRAD_TITULOGRADILLA {
+    box-sizing: border-box;
+	grid-area: area_titu;
+}
+
+#ID_TRABAJO_SIS_GRAD_ENCABEZADOSGRADILLA {
+    box-sizing: border-box;
+	grid-area: area_enca;
+}
+
+#ID_TRABAJO_SIS_GRAD_CUERPOGRADILLA {
+    box-sizing: border-box;
+	grid-area: area_cuer;
+    height: 100%;
+}
+
+#ID_TRABAJO_SIS_GRAD_CONTROLESGRADILLA {
+    box-sizing: border-box;
+	grid-area: area_cont;
+}
+
+#ID_TRABAJO_SIS_GRAD {
+    box-sizing: border-box;
+	display: grid;
+    height: 100%;
+	grid-template: 
+		"area_titu" 5%  
+		"area_enca" 5%  
+		"area_cuer" auto  
+		"area_cont" 25% /  
+		100%;
+}
+
+#IDXX_2_1 {
+	box-sizing: border-box;
+	grid-area: IDXX_2_1;
+    font-size: .7em;
+}
+
+#IDXX_2_2 {
+	box-sizing: border-box; 
+	grid-area: IDXX_2_2;
+    font-size: .7em;
+}
+
+#ID_2_3 {
+	box-sizing: border-box;
+	grid-area: ID_2_3;
+    font-size: .7em;
+}
+
+#IDXX_2 {
+	box-sizing: border-box;
+    display: grid;
+    grid-template: 
+        "IDXX_2_1" auto
+        "IDXX_2_2" auto /
+        100%;
+}
+
+#IDXX_2 > * {
+    border: solid 1px green; 
+    font-size: .7em;
+}
+
+#IDXX_2_2 > * {
+/*    border: solid 1px green; */ 
+    padding: .4em;
+}
+
+#IDXX_2_3_1 > * {
+    border: solid 1px orange;
+}
+
+.gradilla {
+    font-size: .80em;
+    height: 100%;
+}
+
+.gradilla_titulogradilla {
+    box-sizing: border-box;    
+    display: block;
+    width: 100%;
+}
+
+.gradilla_encabezadosgradilla {
+    position: relative;
+    box-sizing: border-box;    
+    display: inline-block;
+    width: 100%;
+}
+
+.gradilla_encabezadosgradilla_oculto {
+    position: absolute;
+    display: none;
+}
+
+.gradilla_encabezados_elemento {
+    box-sizing: border-box;    
+    display: inline-block;
+    border: solid 1px gray;
+}
+
+.gradilla_renglongrid {
+    box-sizing: border-box;    
+    display: block;
+    width: 100%;
+    border: 1px solid gray;
+}
+
+.gradilla_celda {
+    box-sizing: border-box;    
+    display: inline-block;
+    padding: 1px;
+    color: blue;
+}
+
+.gradilla_celda_dato {
+    box-sizing: border-box;    
+}
+
+.gradilla_celda_dato:hover {
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
+
+.gradilla_uno {
+    width: 1%;
+}
+
+.gradilla_dospuntocinco {
+    width: 2.5%;
+}
+
+.gradilla_cinco {
+    width: 5%;
+}
+
+.gradilla_sietepuntocinco {
+    width: 7.5%;
+}
+
+.gradilla_diez {
+    width: 10%;
+}
+
+.gradilla_docepuntocinco {
+    width: 12.5%;
+}
+
+.gradilla_quince {
+    width: 15%;
+}
+
+.gradilla_diecisietepuntocinco {
+    width: 17.5%;
+}
+
+.gradilla_veinte {
+    width: 20%;
+}
+
+.gradilla_veintidospuntocinco {
+    width: 22.5%;
+}
+
+.gradilla_veinticinco {
+    width: 25%;
+}
+
+.gradilla_veintisietepuntocinco {
+    width: 27.5%;
+}
+
+.gradilla_treinta {
+    width: 30%;
+}
+
+.gradilla_treintaidospuntocinco {
+    width: 32.5%;
+}
+
+.gradilla_treintaicinco {
+    width: 35%;
+}
+
+.gradilla_treintaisietepuntocinco {
+    width: 37.5%;
+}
+
+.gradilla_cuarenta {
+    width: 40%;
+}
+
+.gradilla_cuarentaidospuntocinco {
+    width: 42.5%;
+}
+
+.gradilla_cuarentaicinco {
+    width: 45%;
+}
+
+.gradilla_cuarentaisietepuntocinco {
+    width: 47.5%;
+}
+
+.gradilla_cincuenta {
+    width: 50%;
+}
+
+.gradilla_cincuentaidospuntocinco {
+    width: 52.5%;
+}
+
+.gradilla_cincuentaicinco {
+    width: 55%;
+}
+
+.gradilla_sesenta {
+    width: 60%;
+}
+
+.gradilla_sesentaicinco {
+    width: 65%;
+}
+
+.gradilla_setenta {
+    width: 70%;
+}
+
+.gradilla_setentaicinco {
+    width: 75%;
+}
+
+.gradilla_ochenta {
+    width: 80%;
+}
+
+.gradilla_ochentaicinco {
+    width: 85%;
+}
+
+.gradilla_noventa {
+    width: 90%;
+}
+
+.gradilla_noventaicinco {
+    width: 95%;
+}
+
+.gradilla_cien {
+    width: 100%;
+}
+
+.gradilla_uno_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_dospuntocinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_cinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_sietepuntocinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_diez_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_docepuntocinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_quince_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_diecisietepuntocinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_veinte_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_veintidospuntocinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_veinticinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_veintisietepuntocinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_treinta_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_treintaidospuntocinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_treintaicinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_treintaisietepuntocinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_cuarenta_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_cuarentaidospuntocinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_cuarentaicinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_cuarentaisietepuntocinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_cincuenta_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_cincuentaidospuntocinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_cincuentaicinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_sesenta_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_sesentaicinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_setenta_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_setentaicinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_ochenta_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_ochentaicinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_noventa_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_noventaicinco_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_cien_vertical {
+    width: 75%;
+    text-align: left;
+}
+
+.gradilla_titulorenglon {
+    display: inline-block;
+    width: 25%;
+    font-weight: bold;
+    text-align: right;
+    padding: .5px;
+    background: gray;
+    color: white;
+    border: solid 1px white;
+}
+
+.gradilla_titulorenglon_oculto {
+    position: absolute;
+    display: none;
+}
+
+.gradilla_cuerpogradilla {
+    overflow: auto;
+    height: 220px;
+    color: gray;
+    background-color: white; 
+}
+
+.gradilla_cuerpogradilla::-webkit-scrollbar {
+    width: 4px;
+}
+.gradilla_cuerpogradilla::-webkit-scrollbar-track {
+    background: blueviolet;
+}
+.gradilla_cuerpogradilla::-webkit-scrollbar-track-thumb {
+    background: black;
+}
+.gradilla_cuerpogradilla::-webkit-scrollbar-button {
+    height: 12px;
+    background: black;
+    color:brown
+}
+
+#ID_GRADILLA_FAMILIARES_CUERPOGRADILLA {
+    overflow: auto;
+    height: 150px;
+    color: gray;
+    background-color: white; 
+}
+
+
+
+.gradilla_controlesgradilla {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 2em;
+    background-color: blueviolet;
+}
+
+.gradilla_controlesgradilla_0 {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+/*    border: 1px solid green; */
+    flex-wrap: wrap;
+    font-size: 2em;
+}
+
+.gradilla_controlesgradilla_0_0 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 3px;
+    margin: 3px;
+    font-size: 2em;
+    width: auto;
+}
+
+.gradilla_controlesgradilla_0_0_0 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 3px;
+    margin: 3px;
+    font-size: 2em;
+    width: auto;
+    margin: auto;
+    color: white;   
+}
+
+.gradilla_controlesgradilla_0_0_0:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.gradilla_texto {
+    margin: 3px;
+    font-size: 1rem;
+    width: auto;
+    color: white;   
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.gradilla_icono {
+    font-size: 1.5rem;
+    padding: 2px;
+}
+
+.gradilla_controlesgradilla_orientacion {
+/*    border: 1px solid green; */
+    display: inline-block;
+    padding: 1px;
+    margin: 1px;
+}
+
+.gradilla_controlesgradilla_botones {
+/*    border: 1px solid green; */
+    display: inline-block;
+    padding: 1px;
+    margin: 1px;
+}
+
+.gradilla_controlesgradilla_paginas {
+/*    border: 1px solid green; */
+    display: inline-block;
+    margin: 1px;
+}
+
+.texto-verde {
+    color: green;
+    font-family: 'Switzer';
+}
+
+.texto-rojo {
+    color: red;
+    font-family: 'Switzer';
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* BREAK 545 */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+@media (min-width: 545px) {
+
+    #ID_TRABAJO_SIS_GRAD {
+	grid-template: 
+		"area_titu" 7%  
+		"area_enca" 7%  
+		"area_cuer" auto  
+		"area_cont" 23% /  
+		100%;
+    
+    }
+
+    
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* BREAK 920 */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+@media (min-width: 920px) {
+
+    #ID_TRABAJO_SIS_GRAD {
+	grid-template: 
+		"area_titu" 5%  
+		"area_enca" 5%  
+		"area_cuer" auto  
+		"area_cont" 21% /  
+		100%;
+    
+    }
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* BREAK 1080 */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+@media (min-width: 1080px) {
+
+
+
+}
+
+
+

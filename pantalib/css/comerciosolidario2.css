@@ -1,0 +1,270 @@
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* GENERAL
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 12px;   /* tamaño base para todo el documento */
+}
+
+@font-face {
+    font-family: 'Switzer';
+    src: url('../fonts/switzer/Fonts/WEB/fonts/Switzer-Medium.woff2') format('woff2');
+    font-weight: 100;
+}
+
+
+body {
+	box-sizing: border-box;
+    background-image: linear-gradient(rgba(139, 14, 153, 0.2), rgba(139, 14, 153, 0.2)), url("../../comerciosolidario/imagenes/edificio_suenos02.jpeg");
+    background-repeat: round;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    max-width: 100%;
+    font-family: 'Switzer';
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* AREA TRABAJO
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.maqueta_01 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+    position: relative;      /* necesario para absolute internos */
+}
+
+.maqueta_ventana {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+    position: relative;      /* necesario para absolute internos */
+    background-color: white;
+    padding: 20px;
+    border: 1px gray solid;
+}
+
+.maqueta_ventana > * {
+    padding: 5px;
+}
+
+.area_nombre {
+	box-sizing: border-box;
+    text-align: center;
+    font-size: 2rem;
+    padding: 5px;
+    color: rgba(166, 30, 57);
+    rotate: -7deg;
+}
+
+.titulo_ventana {
+	box-sizing: border-box;
+    text-align: center;
+    font-size: 2rem;
+    padding: 3px;
+}
+
+.area_input {
+	box-sizing: border-box;
+    text-align: center;
+    padding: 2px;
+}
+
+.login_input {
+    margin: 5px auto;
+    height: 28px;
+    width: 230px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.login_button {
+    cursor: pointer;
+    background: rgb(245, 190, 39);
+    font-size: 1.5rem;
+    padding: 2px;
+}
+
+.login_button:hover {
+    background: rgb(212, 36, 191);
+    color: white;
+}
+
+.area_link {
+	box-sizing: border-box;
+    text-align: center;
+    padding: 4px;
+}
+
+.login_link {
+    font-size: 13px;
+    color:rgb(212, 36, 191);
+    margin: 5px;
+    font-size: .7rem;
+}
+
+.login_link:visited {
+    color:rgb(132, 5, 81);
+}
+
+.login_link:hover {
+    color:rgb(199, 113, 183);
+}
+
+.boton_link_icono_chico_icono {
+    padding: .3em;    
+    color: rgba(212, 36, 191);   
+    display: block;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.boton_link_icono_chico_texto {
+    color: rgba(212, 36, 191);   
+    display: block;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* VENTANA MODAL
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.modal_oculto {
+
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 2150px;
+    background-color: rgba(225, 201, 196, .5);
+    top: 0px;
+    right: 0px;
+
+}
+
+.modal_activo {
+
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2150px;
+    background-color: rgba(225, 201, 196, .5);
+    top: 0px;
+    right: 0px;
+
+}
+
+#ID_COMERCIOSOLIDARIO_MODAL_OPCION_BUTTON {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#ID_OK_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#ID_SI_AGREGA_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#ID_NO_AGREGA_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#ID_SI_REESTABLECE_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#ID_NO_REESTABLECE_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#ID_SI_LIMPIA_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#ID_NO_LIMPIA_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+
+#ID_SI_ACTUALIZA_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#ID_NO_ACTUALIZA_MODAL_TEXTO {
+    color: rgba(88, 54, 94);   
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* VENTANA MODAL*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.ventana_modal {
+	box-sizing: border-box;
+    background-color: rgba(225, 201, 196);   
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    max-width: 280px;
+}
+
+.ventana_modal > * {
+}
+
+.ventana_modal::backdrop {
+    background-color: rgba(225, 201, 196, 0.3);   
+}
+
+
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* BREAK 545 */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/

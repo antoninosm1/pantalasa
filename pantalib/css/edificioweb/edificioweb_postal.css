@@ -1,0 +1,31 @@
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* edificioweb_postal.css */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 36px;   /* tamaño base para todo el documento */
+}
+
+@font-face {
+    font-family: 'Switzer';
+    src: url('../../fonts/switzer/Fonts/WEB/fonts/Switzer-Medium.woff2') format('woff2');
+    font-weight: 600;
+}
+
+body {
+
+    box-sizing: border-box;
+    font-family: 'Switzer';
+    width: 100%;
+    max-width: 100%;
+    min-width: 350px;
+    overflow-x: hidden;
+
+}
+
+

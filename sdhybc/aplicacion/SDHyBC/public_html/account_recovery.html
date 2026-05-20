@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es_MX">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>SDHyBC</title>
+</head>
+<body>
+    <main>
+        <form class="form-login" id="form-recovery">
+            <h4 class="form-title">RECUPERAR CUENTA</h4>
+            <input class="input-log" type="text" name="username" id="input-user" placeholder="USUARIO">
+            <input class="input-log button-log" type="button" value="RECUPERAR CUENTA" id="button-recovery">
+            
+            <a class="form-footer-link" id="account_login" href="index.php">Volver</a>
+        </form>
+    </main>
+
+    <dialog class="modals-login" id="modal-account">
+        <h4 class="modals-contents modals-text" id="modal-account-title"></h4>
+        <p class="modals-contents modals-text" id="modal-account-description"></p>
+        <form method="dialog">
+            <input type="button" value="OK" class="input-log button-log modals-contents" id="modal-account-button-ok">
+        </form>
+    </dialog>
+
+    <script src="js/account_recovery.js"></script>
+</body>
+</html>

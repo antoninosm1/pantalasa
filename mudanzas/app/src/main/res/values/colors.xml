@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Ruta: PROYECTO... \app\src\main\res\values\colors.xml
+    Descripción: Definicion de todos los colores en la App.
+    Funciones:
+    - Definir 6 colores claros y oscuros versiones neutral, online, offline
+-->
+
+<resources>
+    <!--/////////////////////////////////////////////////////
+    ÚNICOS COLORES QUE SE MANEJAN EN LA APP -->
+
+    <color name="color_claro">#D4CAB8</color>
+    <color name="color_oscuro">#252569</color>
+    <color name="color_alternativo">#48663C</color>
+
+    <color name="color_claro_neutral">#E1E2E8</color>
+    <color name="color_oscuro_neutral">#293326</color>
+    <color name="color_alternativo_neutral">#60A872</color>
+
+    <color name="color_fondo">#000000</color>
+    <color name="color_texto">#FFFFFF</color>
+
+    <!-- Colores para splash -->
+    <color name="colorSplashBackground">#4a297a</color>
+
+    <!-- Colores para splash -->
+    <color name="colorSplashBack">#4a297a</color>
+</resources>

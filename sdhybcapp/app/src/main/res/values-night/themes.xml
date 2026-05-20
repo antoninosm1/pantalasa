@@ -1,0 +1,27 @@
+<!--
+    Ruta: c:\xampp\htdocs\pantalasa\sdhybcapp\app\src\main\res\values\themes.xml
+    Descripción: Tema oscuro de la app (Material Components).
+    Funciones:
+    - Define paleta de colores (primary/secondary)
+    - Configura statusBarColor
+-->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Sdhybc" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/color_claro_online</item>
+        <item name="colorPrimaryVariant">@color/color_claro_neutral</item>
+        <item name="colorOnPrimary">@color/color_oscuro_online</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/color_oscuro_offline</item>
+        <item name="colorSecondaryVariant">@color/color_oscuro_neutral</item>
+        <item name="colorOnSecondary">@color/color_claro_offline</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.App.SplashScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+</resources>

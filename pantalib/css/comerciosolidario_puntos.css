@@ -1,0 +1,493 @@
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* GENERAL
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 8px;   /* tamaño base para todo el documento */
+}
+
+@font-face {
+    font-family: 'Switzer';
+    src: url('../fonts/switzer/Fonts/WEB/fonts/Switzer-Medium.woff2') format('woff2');
+    font-weight: 100;
+}
+
+
+body {
+	box-sizing: border-box;
+    background-image: linear-gradient(rgba(139, 14, 153, 0.2), rgba(139, 14, 153, 0.2)), url("../../comerciosolidario/imagenes/edificio_suenos02.jpeg");
+    background-repeat: round;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    max-width: 100%;
+    font-family: 'Switzer';
+}
+
+.maqueta_01 {
+    height: 100%;
+    width: 100%;
+    min-width: 355px;
+}
+
+.area_cuerpo {
+    width: 100%;
+    height: 100%;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* AREA COMPLETA (LIENZO)
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.maqueta_principal {
+    height: 100%;
+    width: 100%;
+    min-width: 300px;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* AREA CINTA SUPERIOR (ESTADO)
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+#ID_GEN_01 {
+	grid-area: ID_GEN_01;
+    background-color: rgba(212, 36, 191);
+    color: white;
+    padding: 1px;
+}
+
+#ID_GEN_01_MAQUETA {
+	grid-area: ID_GEN_01;
+    background-color: rgba(212, 36, 191);
+    color: white;
+    padding: 1px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;      /* necesario para absolute internos */
+}
+
+#ID_GEN_01_NAME {
+    font-size: .8rem; 
+}
+
+#ID_GEN_01_USER {
+    font-size: .8rem; 
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* AREA CABEZA
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+#ID_GEN_02 {
+	grid-area: ID_GEN_02;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+	box-sizing: border-box;
+    background-color: black;
+}
+
+.area_titulo_pantalla {
+	box-sizing: border-box;
+    text-align: center;
+    rotate: -4deg;
+
+}
+
+.postit {
+    background-color: rgba(232, 199, 81);
+    font-size: 1.7rem;
+    color: rgba(212, 36, 191);
+    width: 100%;
+    padding: 4px;
+}
+
+#ID_GEN_02_MAQUETA {
+    /* background-color: rgba(224, 215, 188); */
+    border: 1px solid gray;
+    color: white;
+    font-size: .5rem; 
+    padding: 1px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;      /* necesario para absolute internos */
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* MENU */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.menu_elementos {
+    color: black;   
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.menu_elementos_d {
+    color: white;   
+	text-align: center;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ 	box-sizing: border-box;
+}
+
+.boton_menu_cuadro {
+    display: inline-block;
+    padding: 2px;
+    z-index: 10;
+}
+
+.boton_menu_cuadro_d {
+    display: inline-block;
+    color: white;   
+}
+
+.boton_menu_cuadro_icono {
+    display: block;
+    text-decoration: none;
+    color: rgba(212, 36, 191);
+    font-size: 2rem;
+    padding: 2px;
+}
+
+.boton_menu_cuadro_d_icono {
+    display: block;
+    text-decoration: none;
+    color: white;   
+}
+
+.boton_menu_cuadro_texto {
+    display: block;
+    text-decoration: none;
+    color: rgba(212, 36, 191);
+    font-size: 1rem;
+    padding: 2px;
+}
+
+.boton_menu_cuadro_d_texto {
+    display: block;
+    text-decoration: none;
+    color: white;   
+}
+
+/*/////////////////////////////////*/
+
+.boton_menu_dark {
+    display: inline-block;
+    padding: 1px;
+    z-index: 10;
+}
+
+.boton_menu_dark_d {
+    display: inline-block;
+    color: black;   
+}
+
+.boton_menu_dark_icono {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 1.7rem;
+    padding: 3px;
+}
+
+.boton_menu_dark_d_icono {
+    display: block;
+    text-decoration: none;
+    color: black;   
+}
+
+.boton_menu_dark_texto {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: .8rem;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.boton_menu_dark_d_texto {
+    display: block;
+    text-decoration: none;
+    color: black;   
+}
+
+.disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+    color: rgba(98, 93, 92, .5);
+}
+
+#ID_GEN_03 {
+    grid-area: ID_GEN_03;
+    background-color: rgba(247, 245, 242, .85);
+   
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* MAQUETA PRINCIPAL
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+#ID_GEN_MAQUETA_PRINCIPAL {
+	display: grid;
+    height: 100%;
+	grid-template: 
+		"ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01" 1.5%  
+		"ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02" 12%  
+		"ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03" auto /  
+	    8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333%;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* AREA DE TRABAJO
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.area_de_trabajo {
+    text-align: center;
+    padding: 1px;
+}
+
+#ID_PUNTOS_TRABAJO_01 {
+	grid-area: ID_PUNTOS_TRABAJO_01;
+    font-weight: bold; 
+    padding: 4px;
+    font-size: 1.3rem;
+}
+#ID_PUNTOS_TRABAJO_02 {
+	grid-area: ID_PUNTOS_TRABAJO_02;
+}
+#ID_PUNTOS_TRABAJO_03 {
+	grid-area: ID_PUNTOS_TRABAJO_03;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;     /* centra horizontal */
+    padding: 4px;
+    border: 1px gray solid;
+}
+#ID_PUNTOS_TRABAJO_04 {
+	grid-area: ID_PUNTOS_TRABAJO_04;
+}
+
+#ID_PUNTOS_TRABAJO {
+	display: grid;
+    height: 100%;
+	grid-template: 
+		"ID_PUNTOS_TRABAJO_01 ID_PUNTOS_TRABAJO_01" 2.5%  
+		"ID_PUNTOS_TRABAJO_02 ID_PUNTOS_TRABAJO_02" 2.5%  
+		"ID_PUNTOS_TRABAJO_03 ID_PUNTOS_TRABAJO_03" 8%  
+		"ID_PUNTOS_TRABAJO_04 ID_PUNTOS_TRABAJO_04" auto /  
+		50% 50%;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* BREAK 330 */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*
+@media (min-width: 330px) {
+
+    #ID_GEN_MAQUETA_PRINCIPAL {
+	    display: grid;
+        height: 100%;
+	    grid-template: 
+		    "ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01" 2%  
+		    "ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02" 25%  
+		    "ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03" auto / 
+		    8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333%;
+    }
+
+}
+*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* BREAK 380 */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*
+@media (min-width: 380px) {
+
+    #ID_GEN_MAQUETA_PRINCIPAL {
+	    display: grid;
+        height: 100%;
+	    grid-template: 
+		    "ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01" 2%  
+		    "ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02" 20%  
+		    "ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03" auto / 
+		    8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333%;
+    }
+
+}
+*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* BREAK 420 */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*
+@media (min-width: 420px) {
+
+    #ID_GEN_MAQUETA_PRINCIPAL {
+	    display: grid;
+        height: 100%;
+	    grid-template: 
+		    "ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01" 2%  
+		    "ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02" 22%  
+		    "ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03" auto / 
+		    8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333%;
+    }
+
+}
+*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* BREAK 445 */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*
+@media (min-width: 445px) {
+
+    #ID_GEN_MAQUETA_PRINCIPAL {
+	    display: grid;
+        height: 100%;
+	    grid-template: 
+		    "ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01" 2%  
+		    "ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02" 15%  
+		    "ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03" auto / 
+		    8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333%;
+    }
+
+    #ID_PUNTOS_TRABAJO {
+	    display: grid;
+        height: 100%;
+	    grid-template: 
+	        "ID_PUNTOS_TRABAJO_01 ID_PUNTOS_TRABAJO_01" 3.5%  
+	        "ID_PUNTOS_TRABAJO_02 ID_PUNTOS_TRABAJO_02" 3.5%  
+	        "ID_PUNTOS_TRABAJO_03 ID_PUNTOS_TRABAJO_03" 8%  
+	        "ID_PUNTOS_TRABAJO_04 ID_PUNTOS_TRABAJO_04" auto /  
+	        50% 50%;
+
+    }
+
+
+}
+*/
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* BREAK 500 */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+@media (min-width: 500px) {
+
+    * {
+        font-size: 10px;   /* tamaño base para todo el documento */
+    }
+
+    /*
+
+    #ID_PUNTOS_TRABAJO {
+	    display: grid;
+        height: 100%;
+	    grid-template: 
+	        "ID_PUNTOS_TRABAJO_01 ID_PUNTOS_TRABAJO_01" 3.5%  
+	        "ID_PUNTOS_TRABAJO_02 ID_PUNTOS_TRABAJO_02" 3.5%  
+	        "ID_PUNTOS_TRABAJO_03 ID_PUNTOS_TRABAJO_03" 9%  
+	        "ID_PUNTOS_TRABAJO_04 ID_PUNTOS_TRABAJO_04" auto /  
+	        50% 50%;
+
+    }
+
+*/
+
+}
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* BREAK 545 */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*
+@media (min-width: 545px) {
+
+    #ID_GEN_MAQUETA_PRINCIPAL {
+	    display: grid;
+        height: 100%;
+	    grid-template: 
+		    "ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01 ID_GEN_01" 2%  
+		    "ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02 ID_GEN_02" 15%  
+		    "ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03 ID_GEN_03" auto / 
+		    8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333%;
+    }
+
+}
+*/
+@media (min-width: 680px) {
+
+    * {
+        font-size: 11px;   /* tamaño base para todo el documento */
+    }
+
+    #ID_PUNTOS_TRABAJO {
+	    display: grid;
+        height: 100%;
+	    grid-template: 
+		    "ID_PUNTOS_TRABAJO_01 ID_PUNTOS_TRABAJO_01" 4%  
+		    "ID_PUNTOS_TRABAJO_02 ID_PUNTOS_TRABAJO_02" 4%  
+		    "ID_PUNTOS_TRABAJO_03 ID_PUNTOS_TRABAJO_03" 9%  
+		    "ID_PUNTOS_TRABAJO_04 ID_PUNTOS_TRABAJO_04" auto /  
+		    50% 50%;
+    }
+
+
+
+
+
+}
+
+@media (min-width: 920px) {
+
+    #ID_PUNTOS_TRABAJO {
+	    display: grid;
+        height: 100%;
+	    grid-template: 
+		    "ID_PUNTOS_TRABAJO_01 ID_PUNTOS_TRABAJO_01" 5%  
+		    "ID_PUNTOS_TRABAJO_02 ID_PUNTOS_TRABAJO_02" 5%  
+		    "ID_PUNTOS_TRABAJO_03 ID_PUNTOS_TRABAJO_03" 10%  
+		    "ID_PUNTOS_TRABAJO_04 ID_PUNTOS_TRABAJO_04" auto /  
+		    50% 50%;
+    }
+
+    * {
+        font-size: 12px;   /* tamaño base para todo el documento */
+    }
+
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Dimensiones para el componente ComboList
+        dropdown_offset: Espacio vertical entre el campo de texto y el dropdown
+    -->
+    <dimen name="dropdown_offset">8dp</dimen>
+
+    <!-- Otras dimensiones útiles para el ComboList -->
+    <dimen name="combo_item_height">48dp</dimen>
+    <dimen name="combo_dropdown_max_height">250dp</dimen>
+</resources>

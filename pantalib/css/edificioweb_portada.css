@@ -1,0 +1,177 @@
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* MAQUETA PORTADA */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+.fondo_blanco {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;     /* centra horizontal */
+    align-items: center;         /* centra vertical   */
+    padding: 5px;
+    height: 675px;
+}
+
+.caja_introduccion_blanco {
+    background-color: white;
+    width: 875px;
+    height: 485px;
+    border: solid .5px;
+    border-color: gray;
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+    position: relative;      /* necesario para absolute internos */
+    overflow: hidden;   /* oculta el contenido que se salga */
+}
+
+.caja_logo {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    display: flex;
+    padding: 4px;
+}
+.logo_texto {
+    width: 150px;
+    height: 40px;
+    font-size: .60rem;
+    font-weight: bold;
+    text-align: right;
+}
+.logo_imagen {
+    width: 30px;
+    height: 30px;
+    background-image: url("../../edificioweb/edificio_logo.png");
+    background-size: cover;      /* llena sin deformar */
+    background-position: center; /* centrado */
+    background-repeat: no-repeat;/* no repetir */
+    margin: 3px;
+}
+.caja_texto_fondo {
+    padding-left: 120px;
+    width: 685px;
+    height: 345px;
+}
+.caja_opcion_inicio {
+    position: absolute;
+    top: 95px;
+    left: 50px;
+    transform-origin: 50% 50%;
+    transform: rotate(2.5deg);
+    background-color: aqua;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+    padding-left: 20px;
+}
+.texto_inicio_opcion {
+    transform-origin: 50% 50%;
+    transform: rotate(-2.5deg);
+    font-size: 2rem;
+}
+.caja_opcion_tienda {
+    position: absolute;
+    top: 0px;
+    left: 140px;
+    transform-origin: 100% 0%;
+    transform: rotate(-90deg);
+    background-color: rgba(222, 109, 132);
+    width: 247.5px;
+    height: 70px;
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+}
+.texto_tienda {
+    transform-origin: 50% 50%;
+    font-size: 2rem;
+}
+.caja_opcion_blog {
+    position: absolute;
+    top: 0px;
+    left: 230px;
+    transform-origin: 100% 0%;
+    transform: rotate(-90deg);
+    background-color: rgba(227, 221, 188);
+    width: 247.5px;
+    height: 70px;
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+}
+.texto_blog {
+    transform-origin: 50% 50%;
+    font-size: 2rem;
+}
+.caja_opcion_germinadora {
+    position: absolute;
+    top: 270px;
+    left: 0px;
+    transform-origin: 50% 50%;
+    transform: rotate(-7deg);
+    background-color: rgba(232, 199, 81);
+    width: 380px;
+    height: 250px;
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+}
+.texto_germinadora_opcion {
+    transform-origin: 50% 50%;
+    transform: rotate(7deg);
+    font-size: 2rem;
+}
+.caja_opcion_historia {
+    position: absolute;
+    top: 265px;
+    left: 370px;
+    background-color: rgba(232, 81, 224);
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+}
+.texto_historia {
+    font-size: 2rem;
+}
+.caja_opcion_ideario {
+    position: absolute;
+    top: 220px;
+    left: 620px;
+    transform-origin: 50% 50%;
+    transform: rotate(-15deg);
+    background-color: rgba(227, 221, 188);
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+}
+.texto_ideario {
+    font-size: 2rem;
+}
+
+.opcion_menu_invisible {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.opcion_menu_visible {
+    opacity: 1;
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+/*
+.opcion_menu.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+*/
