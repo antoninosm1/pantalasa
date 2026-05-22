@@ -1,6 +1,0 @@
-+Cargar datos existentes (capturas de VBA)
-
-+Agregar columna para las capturas de familia en tabla de home
-+En el individuo debe aparecer el estado en donde nació (pedir una imagen de en donde viene en la cédula)
-
-
