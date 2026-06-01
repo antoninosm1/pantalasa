@@ -1,0 +1,284 @@
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* kochi_portada_postal.css                        VERSION BETA*/           
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+:root {
+  --bg:#000308;
+  --panel:#121c3198;
+  --text:#e5e7eb;
+  --muted:#9ca3af;
+  --accent:#555c5e;
+  --good:#10b981;
+  --warn:#f59e0b;
+}
+
+/* Reset */
+*{
+  box-sizing:border-box;
+  border: 0px solid;
+}
+
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Arial;
+}
+h1, h2{
+  text-align: center;
+}
+.wrap{
+  max-width:1200px;
+  margin:0 auto;
+  padding:24px;
+}
+
+/* Tarjetas */
+.card{
+  background:var(--panel);
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:16px;
+  overflow:hidden;
+  padding:20px;
+  margin-bottom:20px;
+}
+
+/* Encabezado */
+.header{
+  display:flex;
+  gap:16px;
+  flex-wrap:wrap;
+  padding:16px;
+  border-bottom:1px solid rgba(255,255,255,.08);
+}
+.brand{
+    flex:1;
+}
+.brand h1{
+    margin:0;
+    font-size:22px;
+    color:var(--accent);
+}
+.brand p{
+    margin:6px 0 0;
+    color:var(--muted);
+    font-size:14px;
+}
+.badge{
+  padding:6px 10px;border-radius:999px;
+  background:#0b1220;border:1px solid #1f2937;
+  font-size:12px;color:var(--muted);
+}
+
+/* Grids */
+.grid{
+  display:grid;
+  grid-template-columns:1.3fr 1fr;
+  gap:0;
+  border-top:1px solid rgba(255,255,255,.08);
+}
+@media (max-width:860px){
+    .grid{
+        grid-template-columns:1fr;
+    }
+}
+
+/* ========================= */
+/* GalerÃ­a principal responsive */
+/* ========================= */
+.grid-gallery {
+  display: flex;              /* activa flexbox */
+  flex-wrap: wrap;            /* permite que las fotos bajen a la siguiente fila */
+  gap: 12px;                  /* espacio entre fotos */
+  justify-content: center;    /* centra las fotos horizontalmente */
+  width: 100%;                /* la galerÃ­a ocupa todo el ancho disponible */
+  margin: 0 auto;             /* centrada dentro del contenedor padre */
+}
+
+/* ========================= */
+/* Cada foto dentro de la galerÃ­a */
+/* ========================= */
+.photo-gallery {
+  flex: 1 1 20%;              /* cada foto ocupa ~20% del ancho en escritorio */
+  max-width: 20%;             /* lÃ­mite mÃĄximo de ancho */
+  border-radius: 12px;        /* esquinas redondeadas */
+  overflow: hidden;           /* oculta contenido que se desborde */
+  background: #0b1220;        /* fondo oscuro detrÃĄs de la imagen */
+  display: flex;              /* flexbox interno para manejar imagen + texto */
+  flex-direction: column;     /* coloca imagen arriba y texto debajo */
+  align-items: center;        /* centra contenido horizontalmente */
+}
+
+.photo-gallery img.photo {
+  width: 100%;                /* imagen ocupa todo el ancho del contenedor */
+  height: auto;               /* altura proporcional */
+  display: block;             /* elimina espacios extra */
+  border-radius: 12px;        /* esquinas redondeadas */
+}
+
+/* Texto descriptivo debajo */
+.descripcion {
+  margin-top: 8px;
+  font-size: 14px;
+  color: var(--muted);
+  text-align: center;
+}
+
+/* Variante: texto al lado */
+.photo-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
+.photo-item img.photo {
+  flex: 0 0 20%;
+  max-width: 20%;
+  border-radius: 12px;
+}
+.photo-item .descripcion {
+  flex: 1;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+/* Responsividad */
+@media (max-width:768px){
+  .photo-gallery{
+    flex:1 1 45%;
+    max-width:45%;             /* dos fotos por fila en tablet */
+  }
+  .photo-item img.photo{
+    flex:0 0 45%;
+    max-width:45%;
+  }
+}
+@media (max-width:480px){
+  .photo-gallery{
+    flex:1 1 100%;
+    max-width:100%;            /* una foto por fila en mÃģvil */
+  }
+  .photo-item{
+    flex-direction:column;
+    align-items:center;
+  }
+  .photo-item img.photo{
+    flex:0 0 100%;
+    max-width:100%;
+  }
+  .photo-item .descripcion{
+    text-align:center;
+    margin-top:8px;
+  }
+}
+
+/* Fotos en fichas individuales */
+.photo{
+  aspect-ratio:1/1;
+  background:#0b1220;
+  display:flex;align-items:center;justify-content:center;
+  border-radius:12px;overflow:hidden;
+}
+.photo img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+/* Carrusel */
+.slider{
+  position:relative;
+  width:100%;
+  aspect-ratio:1/1;
+  background:#0b1220;
+  overflow:hidden;
+  border-radius:12px;
+}
+.slider img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:none;
+}
+.slider button{
+  position:absolute;top:50%;transform:translateY(-50%);
+  background:rgba(0,0,0,0.4);border:none;color:#fff;
+  font-size:24px;padding:8px 12px;cursor:pointer;
+}
+.slider .prev{
+    left:10px;
+}
+.slider .next{
+    right:10px;
+}
+
+/* Contenido */
+.content{
+    padding:18px;
+}
+h2{
+    margin:0 0 10px;
+    font-size:18px;
+    color:var(--accent);
+}
+.list{
+    display:grid;
+    gap:8px;
+    margin:10px 0 16px;
+}
+.item{
+    display:flex;
+    gap:10px;
+}
+.item b{
+    min-width:140px;
+    color:#cbd5e1;
+}
+.tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin:8px 0;
+}
+.tag{
+  padding:6px 10px;border-radius:999px;
+  background:#0b1220;border:1px solid #1f2937;
+  font-size:12px;
+}
+
+/* Botones */
+.cta{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-top:12px;
+    text-align:center;
+}
+.btn{
+  padding:10px 12px;border-radius:10px;
+  border:1px solid #1f2937;background:#0b1220;
+  color:var(--accent);text-decoration:none;
+}
+.btn--primary{
+    background:var(--accent)
+    ;color:#082f49;
+    border-color:transparent;
+}
+
+/* Divisor y pie                          BETA*/
+.divider{
+    height:1px;
+    background:rgba(255,255,255,.08);
+    margin:14px 0;
+}
+.foot{
+    padding:12px 16px;
+    border-top:1px solid rgba(255,255,255,.08);
+    color:var(--muted);
+    font-size:12px;
+    margin-top:20px;
+}
